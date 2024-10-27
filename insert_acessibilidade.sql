@@ -1,4 +1,7 @@
 INSERT INTO acessibilidade (tipo, descricao, ies_id) VALUES 
+('Rampa de Acesso', 'Rampas para acesso ao bloco principal', 1),
+('Intérprete de Libras', 'Intérpretes em todas as turmas de alunos PCD', 2),
+('Sinalização Tátil', 'Mapas e placas táteis para orientação de deficientes visuais', 3),
 ('Banheiro acessível', 'Sanitários adaptados para pessoas com deficiência.', 5),
 ('Atendimento prioritário', 'Fila especial para atendimento a PCD.', 10),
 ('Sinalização sonora', 'Sinais sonoros em cruzamentos e elevadores.', 84),
