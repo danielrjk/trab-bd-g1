@@ -1,4 +1,7 @@
 INSERT INTO discentes (genero, raca_cor, idade, nacionalidade, pcd) VALUES
+('Feminino', 'Parda', 22, 'Brasileira', TRUE),
+('Masculino', 'Branco', 23, 'Brasileira', FALSE),
+('Feminino', 'Indígena', 20, 'Brasileira', FALSE),
 ('Homem cisgênero', 'Parda', 29, 'Espanhola', False),
 ('Homem transgênero', 'Parda', 28, 'Brasileira', False),
 ('Mulher cisgênero', 'Indígena', 21, 'Brasileira', True),
