@@ -1,354 +1,354 @@
 INSERT INTO cursos (nome, area, modalidade, grau_academico, mensalidade, vagas_ofertadas, vagas_preenchidas, vagas_restantes, candidatos, ies_id) VALUES 
-('Medicina', 'Saúde e bem estar social', 'Presencial', 'Bacharelado', 0.00, 100, 90, 10, 500, 1),
-('Ciência da Computação', 'Ciências, matemática e computação', 'EAD', 'Bacharelado', 0.00, 60, 50, 10, 120, 2),
-('Matemática', 'Ciências, matemática e computação', 'Presencial', 'Licenciatura', 0.00, 30, 25, 5, 50, 2),
-('Química - Programa Segunda Licenciatura', 'Educação', 'EaD', 'Licenciatura', 1075, 15, 5, 10, 720, 68),
-('Engenharia Cartográfica', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 9512, 46, 25, 21, 887, 26),
-('Gestão Desportiva E De Lazer', 'Serviços', 'EaD', 'Tecnólogo', 2541, 60, 56, 4, 233, 8),
-('Letras Vernáculas', 'Artes e humanidades', 'EaD', 'Bacharelado', 9800, 22, 21, 1, 755, 53),
-('Decoração', 'Artes e humanidades', 'Presencial', 'Bacharelado', 5456, 26, 18, 8, 760, 17),
-('Segurança Privada', 'Serviços', 'Presencial', 'Tecnólogo', 9607, 47, 21, 26, 458, 65),
-('Decoração', 'Artes e humanidades', 'EaD', 'Bacharelado', 8833, 15, 12, 3, 469, 23),
-('Ciências Dos Alimentos', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 4906, 55, 48, 7, 471, 84),
-('Gestão Ambiental E Sustentabilidade', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 6198, 51, 12, 39, 745, 16),
-('Música - Musicoterapia', 'Artes e humanidades', 'EaD', 'Bacharelado', 2289, 58, 44, 14, 841, 45),
-('Programa Especial De Formação Pedagógica - Biologia', 'Educação', 'EaD', 'Licenciatura', 5202, 18, 17, 1, 103, 52),
-('Química - Programa Segunda Licenciatura', 'Educação', 'Presencial', 'Licenciatura', 5157, 11, 8, 3, 413, 75),
-('Artes Visuais - Gravura', 'Artes e humanidades', 'Presencial', 'Bacharelado', 1811, 22, 10, 12, 843, 95),
-('Letras Vernáculas -Português - Língua Estrangeira', 'Educação', 'EaD', 'Licenciatura', 6218, 39, 31, 8, 619, 83),
-('Letras Modernas - Português/Inglês E Respectivas Literaturas', 'Educação', 'Presencial', 'Licenciatura', 7543, 48, 48, 0, 524, 12),
-('Decoração', 'Artes e humanidades', 'Presencial', 'Bacharelado', 8983, 38, 1, 37, 252, 93),
-('Gestão Estratégica Empresarial', 'Negócios, administração e direito', 'EaD', 'Tecnólogo', 9930, 18, 7, 11, 303, 17),
-('Engenharia De Agrimensura E Cartográfica', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 9272, 20, 6, 14, 584, 16),
-('Matemática Aplicada E Computacional', 'Ciências naturais, matemática e estatística', 'Presencial', 'Bacharelado', 2086, 64, 38, 26, 762, 37),
-('Interdisciplinar Em Saúde', 'Saúde e bem-estar', 'Presencial', 'Bacharelado', 5050, 23, 23, 0, 938, 69),
-('Programa Especial De Formação Pedagógica - Biologia', 'Educação', 'Presencial', 'Licenciatura', 3106, 48, 4, 44, 247, 3),
-('Gestão De Investimentos', 'Negócios, administração e direito', 'EaD', 'Tecnólogo', 7452, 52, 34, 18, 708, 39),
-('Moda', 'Artes e humanidades', 'EaD', 'Bacharelado', 9688, 43, 6, 37, 855, 23),
-('Engenharia De Agrimensura E Cartográfica', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 7977, 31, 16, 15, 490, 81),
-('Arte E Mídia', 'Artes e humanidades', 'Presencial', 'Bacharelado', 5945, 64, 41, 23, 198, 68),
-('Química - Programa Segunda Licenciatura', 'Educação', 'Presencial', 'Licenciatura', 5351, 59, 26, 33, 867, 36),
-('Gastronomia', 'Serviços', 'EaD', 'Tecnólogo', 5375, 29, 6, 23, 822, 69),
-('Desenvolvimento Back-End', 'Computação e Tecnologias da Informação e Comunicação (TIC)', 'Presencial', 'Tecnólogo', 8778, 61, 8, 53, 888, 18),
-('Ciências Biológicas - Ênfase Em Biologia Ambiental', 'Ciências naturais, matemática e estatística', 'Presencial', 'Bacharelado', 6723, 23, 11, 12, 264, 17),
-('Marketing', 'Negócios, administração e direito', 'Presencial', 'Tecnólogo', 3819, 20, 15, 5, 269, 10),
-('Sociologia', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 4640, 18, 5, 13, 939, 46),
-('Gestão Pública', 'Negócios, administração e direito', 'EaD', 'Tecnólogo', 3562, 10, 0, 10, 534, 7),
-('Intercultural Indígena Em Línguas, Artes E Literatura', 'Educação', 'EaD', 'Licenciatura', 9295, 56, 53, 3, 777, 27),
-('Ciências', 'Educação', 'Presencial', 'Licenciatura', 8462, 41, 25, 16, 503, 3),
-('Engenharia De Produção E Sistemas', 'Engenharia, produção e construção', 'Presencial', 'Bacharelado', 5644, 62, 35, 27, 812, 45),
-('Design - Programação Visual', 'Artes e humanidades', 'Presencial', 'Bacharelado', 2328, 58, 48, 10, 300, 70),
-('Engenharia Hídrica', 'Engenharia, produção e construção', 'Presencial', 'Bacharelado', 8893, 13, 13, 0, 369, 55),
-('Matemática Aplicada E Computacional', 'Ciências naturais, matemática e estatística', 'Presencial', 'Bacharelado', 8023, 55, 34, 21, 723, 85),
-('Ciências Da Natureza: Ciências E Biologia', 'Educação', 'EaD', 'Licenciatura', 1708, 21, 16, 5, 531, 103),
-('Ciências Biológicas - Ênfase Em Biologia Ambiental', 'Ciências naturais, matemática e estatística', 'EaD', 'Bacharelado', 7500, 33, 33, 0, 652, 31),
-('Química', 'Educação', 'Presencial', 'Licenciatura', 6415, 25, 9, 16, 551, 75),
-('Química Ambiental', 'Ciências naturais, matemática e estatística', 'Presencial', 'Bacharelado', 6712, 38, 18, 20, 548, 73),
-('Ciência Ambiental', 'Ciências naturais, matemática e estatística', 'Presencial', 'Bacharelado', 6788, 17, 11, 6, 609, 6),
-('Desenvolvimento Back-End', 'Computação e Tecnologias da Informação e Comunicação (TIC)', 'Presencial', 'Tecnólogo', 3227, 63, 33, 30, 373, 43),
-('Artes Visuais - Gravura', 'Artes e humanidades', 'EaD', 'Bacharelado', 2206, 10, 9, 1, 806, 64),
-('Química - Habilitação Fundamental', 'Ciências naturais, matemática e estatística', 'Presencial', 'Bacharelado', 3989, 17, 7, 10, 268, 84),
-('Comunicação: Rádio, Televisão E Internet', 'Ciências sociais, comunicação e informação', 'EaD', 'Bacharelado', 4665, 32, 12, 20, 538, 68),
-('Engenharia De Produção Civil', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 7027, 22, 3, 19, 257, 32),
-('Linguística', 'Artes e humanidades', 'Presencial', 'Bacharelado', 8793, 31, 12, 19, 761, 89),
-('Empreendedorismo', 'Negócios, administração e direito', 'Presencial', 'Tecnólogo', 3445, 20, 12, 8, 186, 53),
-('Química - Programa Segunda Licenciatura', 'Educação', 'EaD', 'Licenciatura', 9830, 69, 0, 69, 932, 1),
-('Línguas Estrangeiras Aplicadas Ao Multilinguismo E À Sociedade Da Informação', 'Artes e humanidades', 'Presencial', 'Bacharelado', 5934, 25, 10, 15, 263, 58),
-('Química', 'Educação', 'EaD', 'Licenciatura', 2644, 24, 9, 15, 554, 66),
-('Comunicação: Rádio, Televisão E Internet', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 1927, 18, 1, 17, 131, 47),
-('Ciências Da Natureza: Ciências E Biologia', 'Educação', 'EaD', 'Licenciatura', 2437, 60, 12, 48, 576, 88),
-('Letras Vernáculas', 'Artes e humanidades', 'EaD', 'Bacharelado', 5180, 54, 12, 42, 370, 7),
-('Moda', 'Artes e humanidades', 'Presencial', 'Bacharelado', 6555, 59, 23, 36, 744, 83),
-('Sistemas Biomédicos', 'Engenharia, produção e construção', 'EaD', 'Tecnólogo', 7138, 60, 3, 57, 131, 67),
-('Gestão Desportiva E De Lazer', 'Serviços', 'Presencial', 'Tecnólogo', 9918, 25, 12, 13, 868, 77),
-('Gestão Do Agronegócio', 'Negócios, administração e direito', 'EaD', 'Bacharelado', 9604, 14, 0, 14, 923, 26),
-('Gerontologia - Bem-Estar E Educação', 'Saúde e bem-estar', 'Presencial', 'Tecnólogo', 7414, 64, 1, 63, 544, 28),
-('Segurança Privada', 'Serviços', 'Presencial', 'Tecnólogo', 4063, 57, 32, 25, 869, 80),
-('Gestão De Cidades Inteligentes E Sustentáveis', 'Negócios, administração e direito', 'Presencial', 'Tecnólogo', 6453, 70, 44, 26, 904, 12),
-('Tecnologias Educacionais', 'Computação e Tecnologias da Informação e Comunicação (TIC)', 'Presencial', 'Tecnólogo', 8137, 31, 25, 6, 493, 75),
-('Gerontologia - Bem-Estar E Educação', 'Saúde e bem-estar', 'EaD', 'Tecnólogo', 7091, 31, 12, 19, 625, 3),
-('Gestão De Cidades Inteligentes E Sustentáveis', 'Negócios, administração e direito', 'Presencial', 'Tecnólogo', 8279, 63, 23, 40, 889, 4),
-('Gestão Pública', 'Negócios, administração e direito', 'Presencial', 'Tecnólogo', 6742, 29, 0, 29, 185, 27),
-('Engenharia Agrícola', 'Agricultura, silvicultura, pesca e veterinária', 'EaD', 'Bacharelado', 7692, 16, 16, 0, 270, 85),
-('Química - Habilitação Fundamental', 'Ciências naturais, matemática e estatística', 'EaD', 'Bacharelado', 3317, 47, 11, 36, 970, 82),
-('Computação', 'Educação', 'Presencial', 'Licenciatura', 1435, 56, 49, 7, 915, 25),
-('Ciências Da Natureza: Ciências E Biologia', 'Educação', 'Presencial', 'Licenciatura', 8309, 63, 10, 53, 433, 42),
-('Design De Moda', 'Artes e humanidades', 'EaD', 'Bacharelado', 1579, 63, 19, 44, 485, 44),
-('Comunicação Social - Audiovisual', 'Ciências sociais, comunicação e informação', 'EaD', 'Bacharelado', 5823, 49, 38, 11, 110, 57),
-('Comércio Exterior E Negócios Internacionais', 'Negócios, administração e direito', 'Presencial', 'Bacharelado', 5800, 41, 7, 34, 961, 68),
-('Moda', 'Artes e humanidades', 'EaD', 'Bacharelado', 2866, 42, 12, 30, 752, 41),
-('Gestão Ambiental E Sustentabilidade', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 5422, 66, 25, 41, 903, 75),
-('Interdisciplinar Em Ciências E Humanidades', 'Ciências sociais, comunicação e informação', 'EaD', 'Bacharelado', 6677, 33, 9, 24, 802, 51),
-('Decoração', 'Artes e humanidades', 'EaD', 'Bacharelado', 2301, 13, 13, 0, 610, 47),
-('Computação', 'Educação', 'Presencial', 'Licenciatura', 7611, 10, 2, 8, 874, 51),
-('Interdisciplinar Em Saúde', 'Saúde e bem-estar', 'EaD', 'Bacharelado', 7933, 21, 11, 10, 750, 57),
-('Animação', 'Artes e humanidades', 'EaD', 'Bacharelado', 4714, 48, 42, 6, 428, 94),
-('Química', 'Educação', 'EaD', 'Licenciatura', 2898, 34, 21, 13, 318, 50),
-('Ciências Da Natureza: Ciências E Biologia', 'Educação', 'Presencial', 'Licenciatura', 4021, 10, 10, 0, 809, 90),
-('Ciências Biológicas: Biofísica', 'Ciências naturais, matemática e estatística', 'EaD', 'Bacharelado', 5688, 63, 23, 40, 657, 74),
-('Design De Moda', 'Artes e humanidades', 'Presencial', 'Bacharelado', 9999, 67, 54, 13, 485, 17),
-('Arquivologia', 'Ciências sociais, comunicação e informação', 'EaD', 'Bacharelado', 1171, 21, 5, 16, 781, 32),
-('Engenharia Agrícola', 'Agricultura, silvicultura, pesca e veterinária', 'EaD', 'Bacharelado', 2033, 27, 8, 19, 809, 100),
-('Gestão Pública', 'Negócios, administração e direito', 'EaD', 'Tecnólogo', 2760, 16, 5, 11, 153, 42),
-('Interdisciplinar Em Ciências E Humanidades', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 3372, 70, 2, 68, 126, 16),
-('Marketing', 'Negócios, administração e direito', 'Presencial', 'Tecnólogo', 5046, 67, 15, 52, 694, 47),
-('Perícia Judicial E Extrajudicial', 'Serviços', 'Presencial', 'Tecnólogo', 3678, 46, 34, 12, 926, 27),
-('Manutenção De Aeronave De Asas Rotativas', 'Serviços', 'EaD', 'Tecnólogo', 1602, 13, 8, 5, 269, 69),
-('Biocombustíveis', 'Engenharia, produção e construção', 'Presencial', 'Tecnólogo', 6982, 34, 30, 4, 465, 72),
-('Gestão De Investimentos', 'Negócios, administração e direito', 'EaD', 'Tecnólogo', 7831, 46, 0, 46, 138, 56),
-('Saneamento Ambiental', 'Engenharia, produção e construção', 'Presencial', 'Tecnólogo', 5804, 69, 13, 56, 701, 26),
-('Manutenção De Aeronave De Asas Rotativas', 'Serviços', 'EaD', 'Tecnólogo', 9530, 38, 16, 22, 456, 103),
-('Engenharia Hídrica', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 1378, 60, 43, 17, 887, 2),
-('Ciências Dos Alimentos', 'Engenharia, produção e construção', 'Presencial', 'Bacharelado', 5165, 43, 14, 29, 947, 93),
-('Gestão Estratégica Empresarial', 'Negócios, administração e direito', 'Presencial', 'Tecnólogo', 7003, 15, 1, 14, 119, 32),
-('Gerontologia - Bem-Estar E Educação', 'Saúde e bem-estar', 'EaD', 'Tecnólogo', 6899, 50, 39, 11, 881, 77),
-('Manutenção De Aeronave De Asas Rotativas', 'Serviços', 'EaD', 'Tecnólogo', 1830, 68, 46, 22, 669, 53),
-('Música - Musicoterapia', 'Artes e humanidades', 'EaD', 'Bacharelado', 2177, 43, 0, 43, 783, 76),
-('Produção De Cacau E Chocolate', 'Agricultura, silvicultura, pesca e veterinária', 'Presencial', 'Tecnólogo', 4501, 31, 20, 11, 276, 60),
-('Interdisciplinar Em Ciências E Humanidades', 'Ciências sociais, comunicação e informação', 'EaD', 'Bacharelado', 4237, 60, 8, 52, 476, 76),
-('Interdisciplinar Em Inovação, Ciência E Tecnologia', 'Engenharia, produção e construção', 'Presencial', 'Bacharelado', 4724, 50, 20, 30, 263, 95),
-('Letras: Tradução E Interpretação Em Libras/Português', 'Artes e humanidades', 'Presencial', 'Bacharelado', 3070, 19, 2, 17, 215, 85),
-('Arquivologia', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 4574, 16, 7, 9, 701, 22),
-('Engenharia De Produção E Sistemas', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 9357, 15, 5, 10, 817, 42),
-('Biocombustíveis', 'Engenharia, produção e construção', 'EaD', 'Tecnólogo', 9558, 40, 10, 30, 217, 16),
-('Jogos Digitais', 'Computação e Tecnologias da Informação e Comunicação (TIC)', 'EaD', 'Tecnólogo', 5861, 17, 11, 6, 231, 36),
-('Intercultural Indígena Em Línguas, Artes E Literatura', 'Educação', 'Presencial', 'Licenciatura', 4993, 66, 8, 58, 457, 67),
-('Intercultural Indígena Em Línguas, Artes E Literatura', 'Educação', 'EaD', 'Licenciatura', 5765, 28, 16, 12, 546, 68),
-('Química Ambiental', 'Ciências naturais, matemática e estatística', 'Presencial', 'Bacharelado', 3502, 68, 17, 51, 884, 100),
-('Design De Moda', 'Artes e humanidades', 'EaD', 'Bacharelado', 2985, 40, 10, 30, 487, 87),
-('Interdisciplinar Em Ciências E Humanidades', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 5673, 26, 24, 2, 107, 5),
-('Engenharia De Sistemas Ciber Físicos', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 1244, 64, 29, 35, 292, 29),
-('Interdisciplinar Em Inovação, Ciência E Tecnologia', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 8076, 70, 49, 21, 990, 99),
-('Design De Moda', 'Artes e humanidades', 'EaD', 'Bacharelado', 2229, 66, 54, 12, 649, 92),
-('Marketing', 'Negócios, administração e direito', 'EaD', 'Tecnólogo', 5603, 31, 30, 1, 188, 4),
-('Artes Visuais - Gravura', 'Artes e humanidades', 'EaD', 'Bacharelado', 2918, 41, 17, 24, 271, 47),
-('Engenharia Cartográfica', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 7705, 23, 11, 12, 143, 76),
-('Artes Visuais - Gravura', 'Artes e humanidades', 'Presencial', 'Bacharelado', 9745, 51, 34, 17, 810, 89),
-('Engenharia De Produção Civil', 'Engenharia, produção e construção', 'Presencial', 'Bacharelado', 7773, 69, 3, 66, 891, 34),
-('Letras Vernáculas -Português - Língua Estrangeira', 'Educação', 'EaD', 'Licenciatura', 5475, 55, 53, 2, 679, 98),
-('Computação', 'Educação', 'EaD', 'Licenciatura', 3583, 60, 31, 29, 754, 31),
-('Letras Modernas - Português/Inglês E Respectivas Literaturas', 'Educação', 'Presencial', 'Licenciatura', 6514, 45, 36, 9, 271, 15),
-('Segurança Privada', 'Serviços', 'Presencial', 'Tecnólogo', 6036, 26, 25, 1, 723, 5),
-('Engenharia Hídrica', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 1559, 19, 19, 0, 106, 45),
-('Planejamento Territorial', 'Ciências sociais, comunicação e informação', 'EaD', 'Bacharelado', 7877, 57, 25, 32, 797, 40),
-('Artes Visuais - Gravura', 'Artes e humanidades', 'Presencial', 'Bacharelado', 1087, 64, 50, 14, 725, 23),
-('Ciências', 'Educação', 'Presencial', 'Licenciatura', 4822, 62, 33, 29, 976, 80),
-('Saneamento Ambiental', 'Engenharia, produção e construção', 'Presencial', 'Tecnólogo', 8372, 30, 25, 5, 115, 73),
-('Comunicação: Rádio, Televisão E Internet', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 6235, 34, 33, 1, 976, 93),
-('Teoria Da Dança', 'Artes e humanidades', 'EaD', 'Bacharelado', 6437, 28, 17, 11, 334, 43),
-('Ciências Biológicas - Ênfase Em Biologia Ambiental', 'Ciências naturais, matemática e estatística', 'Presencial', 'Bacharelado', 8292, 26, 24, 2, 668, 1),
-('Desenvolvimento Back-End', 'Computação e Tecnologias da Informação e Comunicação (TIC)', 'Presencial', 'Tecnólogo', 4877, 43, 12, 31, 592, 71),
-('Gastronomia', 'Serviços', 'Presencial', 'Tecnólogo', 1151, 12, 2, 10, 900, 8),
-('Decoração', 'Artes e humanidades', 'EaD', 'Bacharelado', 1404, 62, 58, 4, 392, 65),
-('Desenvolvimento Back-End', 'Computação e Tecnologias da Informação e Comunicação (TIC)', 'EaD', 'Tecnólogo', 5898, 26, 3, 23, 192, 45),
-('Engenharia De Materiais E Nanotecnologia', 'Engenharia, produção e construção', 'Presencial', 'Bacharelado', 7559, 55, 20, 35, 782, 74),
-('Ciência Ambiental', 'Ciências naturais, matemática e estatística', 'EaD', 'Bacharelado', 1029, 60, 36, 24, 484, 41),
-('Interdisciplinar Em Ciências E Humanidades', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 1196, 35, 6, 29, 424, 78),
-('Gestão De Turismo, Eventos E Lazer', 'Serviços', 'EaD', 'Tecnólogo', 5424, 41, 13, 28, 971, 97),
-('Química Ambiental', 'Ciências naturais, matemática e estatística', 'Presencial', 'Bacharelado', 7992, 26, 1, 25, 831, 47),
-('Decoração', 'Artes e humanidades', 'Presencial', 'Bacharelado', 7542, 67, 24, 43, 412, 7),
-('Ciências Da Natureza: Ciências E Biologia', 'Educação', 'EaD', 'Licenciatura', 7840, 53, 19, 34, 457, 84),
-('Linguística', 'Artes e humanidades', 'EaD', 'Bacharelado', 1281, 64, 21, 43, 625, 61),
-('Letras: Tradução E Interpretação Em Libras/Português', 'Artes e humanidades', 'Presencial', 'Bacharelado', 3765, 44, 29, 15, 292, 40),
-('Sociologia', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 8740, 54, 44, 10, 169, 30),
-('Química - Habilitação Fundamental', 'Ciências naturais, matemática e estatística', 'EaD', 'Bacharelado', 7740, 65, 4, 61, 550, 61),
-('Química - Programa Segunda Licenciatura', 'Educação', 'EaD', 'Licenciatura', 9189, 42, 30, 12, 909, 27),
-('Química Ambiental', 'Ciências naturais, matemática e estatística', 'EaD', 'Bacharelado', 4746, 31, 4, 27, 298, 102),
-('Ciências Da Natureza: Ciências E Biologia', 'Educação', 'EaD', 'Licenciatura', 3063, 63, 9, 54, 161, 4),
-('Letras: Tradução E Interpretação Em Libras/Português', 'Artes e humanidades', 'EaD', 'Bacharelado', 3959, 12, 10, 2, 432, 12),
-('Programa Especial De Formação Pedagógica - Biologia', 'Educação', 'Presencial', 'Licenciatura', 1718, 60, 11, 49, 673, 44),
-('Engenharia De Agronegócios', 'Agricultura, silvicultura, pesca e veterinária', 'EaD', 'Bacharelado', 5943, 30, 5, 25, 461, 99),
-('Música - Órgão', 'Artes e humanidades', 'Presencial', 'Bacharelado', 1952, 22, 7, 15, 636, 74),
-('Produção De Cacau E Chocolate', 'Agricultura, silvicultura, pesca e veterinária', 'Presencial', 'Tecnólogo', 9338, 55, 46, 9, 656, 38),
-('Química', 'Educação', 'Presencial', 'Licenciatura', 3001, 19, 11, 8, 462, 45),
-('Gastronomia', 'Serviços', 'EaD', 'Tecnólogo', 4044, 66, 8, 58, 875, 35),
-('Biocombustíveis', 'Engenharia, produção e construção', 'Presencial', 'Tecnólogo', 1991, 37, 35, 2, 370, 82),
-('Gestão De Investimentos', 'Negócios, administração e direito', 'Presencial', 'Tecnólogo', 1055, 40, 22, 18, 669, 58),
-('Ciências', 'Educação', 'Presencial', 'Licenciatura', 6649, 35, 28, 7, 543, 29),
-('Intercultural Indígena Em Línguas, Artes E Literatura', 'Educação', 'Presencial', 'Licenciatura', 5430, 63, 32, 31, 527, 9),
-('Química', 'Educação', 'EaD', 'Licenciatura', 4965, 57, 44, 13, 947, 66),
-('Comunicação: Rádio, Televisão E Internet', 'Ciências sociais, comunicação e informação', 'EaD', 'Bacharelado', 7313, 62, 45, 17, 175, 99),
-('Sociologia', 'Ciências sociais, comunicação e informação', 'EaD', 'Bacharelado', 1346, 36, 26, 10, 196, 92),
-('Interdisciplinar Em Ciências E Humanidades', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 1226, 29, 5, 24, 527, 80),
-('Interdisciplinar Em Inovação, Ciência E Tecnologia', 'Engenharia, produção e construção', 'Presencial', 'Bacharelado', 4089, 45, 3, 42, 197, 32),
-('Artes Visuais - Gravura', 'Artes e humanidades', 'Presencial', 'Bacharelado', 1388, 29, 6, 23, 789, 96),
-('Letras Vernáculas -Português - Língua Estrangeira', 'Educação', 'EaD', 'Licenciatura', 1809, 62, 19, 43, 500, 79),
-('Produção Agropecuária', 'Agricultura, silvicultura, pesca e veterinária', 'EaD', 'Tecnólogo', 8318, 42, 17, 25, 314, 102),
-('Interdisciplinar Em Inovação, Ciência E Tecnologia', 'Engenharia, produção e construção', 'Presencial', 'Bacharelado', 9630, 48, 11, 37, 880, 77),
-('Gestão Estratégica Empresarial', 'Negócios, administração e direito', 'Presencial', 'Tecnólogo', 1578, 50, 50, 0, 160, 86),
-('Design De Moda', 'Artes e humanidades', 'EaD', 'Bacharelado', 3403, 11, 1, 10, 590, 63),
-('Matemática Aplicada E Computacional', 'Ciências naturais, matemática e estatística', 'Presencial', 'Bacharelado', 5902, 35, 2, 33, 349, 94),
-('Desenvolvimento Back-End', 'Computação e Tecnologias da Informação e Comunicação (TIC)', 'Presencial', 'Tecnólogo', 4767, 26, 24, 2, 862, 30),
-('Marketing', 'Negócios, administração e direito', 'Presencial', 'Tecnólogo', 7280, 68, 52, 16, 809, 31),
-('Engenharia De Produção E Sistemas', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 8596, 68, 23, 45, 439, 16),
-('Produção Agropecuária', 'Agricultura, silvicultura, pesca e veterinária', 'EaD', 'Tecnólogo', 5045, 68, 29, 39, 611, 64),
-('Perícia Judicial E Extrajudicial', 'Serviços', 'EaD', 'Tecnólogo', 6201, 38, 4, 34, 574, 99),
-('Ciências', 'Educação', 'Presencial', 'Licenciatura', 4161, 56, 19, 37, 576, 14),
-('Intercultural Indígena Em Línguas, Artes E Literatura', 'Educação', 'Presencial', 'Licenciatura', 3202, 51, 10, 41, 896, 91),
-('Gestão Da Informação', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 6615, 44, 17, 27, 908, 48),
-('Segunda Licenciatura Em Pedagogia', 'Educação', 'Presencial', 'Licenciatura', 3333, 42, 31, 11, 706, 79),
-('Jogos Digitais', 'Computação e Tecnologias da Informação e Comunicação (TIC)', 'EaD', 'Tecnólogo', 7409, 41, 18, 23, 940, 59),
-('Design De Moda', 'Artes e humanidades', 'EaD', 'Bacharelado', 3794, 62, 12, 50, 123, 59),
-('Química - Programa Segunda Licenciatura', 'Educação', 'Presencial', 'Licenciatura', 1618, 33, 8, 25, 173, 85),
-('Gestão Desportiva E De Lazer', 'Serviços', 'EaD', 'Tecnólogo', 3994, 13, 4, 9, 538, 102),
-('Marketing', 'Negócios, administração e direito', 'EaD', 'Tecnólogo', 8566, 38, 24, 14, 959, 81),
-('Engenharia Cartográfica', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 1708, 66, 56, 10, 171, 56),
-('Produção De Cacau E Chocolate', 'Agricultura, silvicultura, pesca e veterinária', 'EaD', 'Tecnólogo', 4116, 42, 29, 13, 973, 12),
-('Ciências', 'Educação', 'Presencial', 'Licenciatura', 2385, 69, 44, 25, 781, 102),
-('Letras Modernas - Português/Inglês E Respectivas Literaturas', 'Educação', 'Presencial', 'Licenciatura', 9299, 43, 14, 29, 307, 16),
-('Ciências', 'Educação', 'Presencial', 'Licenciatura', 3659, 30, 20, 10, 310, 82),
-('Manutenção De Aeronave De Asas Rotativas', 'Serviços', 'Presencial', 'Tecnólogo', 3855, 28, 8, 20, 258, 73),
-('Produção De Cacau E Chocolate', 'Agricultura, silvicultura, pesca e veterinária', 'EaD', 'Tecnólogo', 5604, 33, 18, 15, 684, 50),
-('Intercultural Indígena Em Línguas, Artes E Literatura', 'Educação', 'EaD', 'Licenciatura', 9775, 44, 36, 8, 837, 31),
-('Linguística', 'Artes e humanidades', 'Presencial', 'Bacharelado', 6536, 69, 43, 26, 164, 56),
-('Química - Programa Segunda Licenciatura', 'Educação', 'Presencial', 'Licenciatura', 2447, 31, 9, 22, 896, 34),
-('Engenharia De Produção E Sistemas', 'Engenharia, produção e construção', 'Presencial', 'Bacharelado', 7531, 47, 28, 19, 292, 17),
-('Letras Modernas - Português/Inglês E Respectivas Literaturas', 'Educação', 'Presencial', 'Licenciatura', 9601, 16, 3, 13, 326, 60),
-('Música - Órgão', 'Artes e humanidades', 'EaD', 'Bacharelado', 9905, 36, 2, 34, 384, 2),
-('Comércio Exterior E Negócios Internacionais', 'Negócios, administração e direito', 'EaD', 'Bacharelado', 8266, 42, 5, 37, 780, 101),
-('Sociologia', 'Ciências sociais, comunicação e informação', 'EaD', 'Bacharelado', 9111, 20, 8, 12, 473, 20),
-('Comércio Exterior E Negócios Internacionais', 'Negócios, administração e direito', 'EaD', 'Bacharelado', 6971, 25, 16, 9, 417, 33),
-('Intercultural Indígena Em Línguas, Artes E Literatura', 'Educação', 'EaD', 'Licenciatura', 6457, 26, 3, 23, 935, 84),
-('Comunicação Social - Audiovisual', 'Ciências sociais, comunicação e informação', 'EaD', 'Bacharelado', 9841, 35, 32, 3, 182, 67),
-('Gestão Pública', 'Negócios, administração e direito', 'EaD', 'Tecnólogo', 6139, 15, 3, 12, 531, 76),
-('Química Ambiental', 'Ciências naturais, matemática e estatística', 'EaD', 'Bacharelado', 3069, 34, 7, 27, 483, 82),
-('Música - Musicoterapia', 'Artes e humanidades', 'EaD', 'Bacharelado', 5326, 69, 20, 49, 923, 25),
-('Educação Do Campo: Ciências Sociais E Humanas', 'Educação', 'Presencial', 'Licenciatura', 4818, 36, 24, 12, 690, 51),
-('Química Ambiental', 'Ciências naturais, matemática e estatística', 'EaD', 'Bacharelado', 9663, 41, 31, 10, 815, 53),
-('Ciências Biológicas - Ênfase Em Biologia Ambiental', 'Ciências naturais, matemática e estatística', 'Presencial', 'Bacharelado', 5508, 47, 35, 12, 641, 14),
-('Comércio Exterior E Negócios Internacionais', 'Negócios, administração e direito', 'Presencial', 'Bacharelado', 3771, 62, 57, 5, 342, 13),
-('Design De Moda', 'Artes e humanidades', 'EaD', 'Bacharelado', 9307, 39, 32, 7, 438, 57),
-('Linguística', 'Artes e humanidades', 'Presencial', 'Bacharelado', 7291, 52, 11, 41, 909, 62),
-('Engenharia Cartográfica', 'Engenharia, produção e construção', 'Presencial', 'Bacharelado', 2305, 41, 12, 29, 347, 29),
-('Ciência Ambiental', 'Ciências naturais, matemática e estatística', 'EaD', 'Bacharelado', 2149, 29, 8, 21, 867, 8),
-('Educação Do Campo: Ciências Sociais E Humanas', 'Educação', 'Presencial', 'Licenciatura', 5898, 30, 16, 14, 989, 87),
-('Letras: Tradução E Interpretação Em Libras/Português', 'Artes e humanidades', 'EaD', 'Bacharelado', 4670, 12, 9, 3, 856, 55),
-('Línguas Estrangeiras Aplicadas Ao Multilinguismo E À Sociedade Da Informação', 'Artes e humanidades', 'EaD', 'Bacharelado', 2335, 19, 0, 19, 901, 13),
-('Intercultural Indígena Em Línguas, Artes E Literatura', 'Educação', 'EaD', 'Licenciatura', 2482, 52, 44, 8, 742, 102),
-('Empreendedorismo', 'Negócios, administração e direito', 'Presencial', 'Tecnólogo', 8633, 33, 14, 19, 554, 22),
-('Gerontologia - Bem-Estar E Educação', 'Saúde e bem-estar', 'Presencial', 'Tecnólogo', 4513, 17, 0, 17, 674, 100),
-('Engenharia De Produção Civil', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 7837, 18, 18, 0, 465, 1),
-('Programa Especial De Formação Pedagógica - Biologia', 'Educação', 'Presencial', 'Licenciatura', 7675, 15, 4, 11, 669, 61),
-('Engenharia De Produção E Sistemas', 'Engenharia, produção e construção', 'Presencial', 'Bacharelado', 8357, 19, 9, 10, 580, 24),
-('Gestão Desportiva E De Lazer', 'Serviços', 'Presencial', 'Tecnólogo', 6861, 27, 21, 6, 468, 5),
-('Animação', 'Artes e humanidades', 'Presencial', 'Bacharelado', 1384, 18, 9, 9, 788, 53),
-('Qualidade De Vida Na Contemporaneidade', 'Saúde e bem-estar', 'Presencial', 'Tecnólogo', 8834, 32, 28, 4, 702, 70),
-('Gerontologia - Bem-Estar E Educação', 'Saúde e bem-estar', 'EaD', 'Tecnólogo', 8326, 63, 1, 62, 121, 21),
-('Jornalismo', 'Ciências sociais, comunicação e informação', 'EaD', 'Bacharelado', 9223, 55, 49, 6, 765, 69),
-('Engenharia De Sistemas Ciber Físicos', 'Engenharia, produção e construção', 'Presencial', 'Bacharelado', 9656, 34, 3, 31, 835, 81),
-('Artes Visuais - Gravura', 'Artes e humanidades', 'Presencial', 'Bacharelado', 7577, 51, 0, 51, 273, 10),
-('Planejamento Territorial', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 7264, 22, 17, 5, 146, 9),
-('Saneamento Ambiental', 'Engenharia, produção e construção', 'EaD', 'Tecnólogo', 2893, 47, 44, 3, 539, 80),
-('Saneamento Ambiental', 'Engenharia, produção e construção', 'Presencial', 'Tecnólogo', 1173, 44, 4, 40, 275, 90),
-('Ciências Biológicas - Ênfase Em Biologia Ambiental', 'Ciências naturais, matemática e estatística', 'EaD', 'Bacharelado', 4699, 13, 8, 5, 951, 93),
-('Interdisciplinar Em Saúde', 'Saúde e bem-estar', 'Presencial', 'Bacharelado', 7060, 48, 4, 44, 390, 1),
-('Letras Vernáculas -Português - Língua Estrangeira', 'Educação', 'EaD', 'Licenciatura', 6074, 34, 19, 15, 245, 71),
-('Intercultural Indígena Em Línguas, Artes E Literatura', 'Educação', 'EaD', 'Licenciatura', 1385, 33, 13, 20, 417, 6),
-('Teoria Da Dança', 'Artes e humanidades', 'EaD', 'Bacharelado', 1638, 40, 6, 34, 553, 94),
-('Tecnologias Educacionais', 'Computação e Tecnologias da Informação e Comunicação (TIC)', 'Presencial', 'Tecnólogo', 7711, 31, 25, 6, 499, 12),
-('Gestão De Turismo, Eventos E Lazer', 'Serviços', 'Presencial', 'Tecnólogo', 3721, 65, 51, 14, 492, 99),
-('Gestão Desportiva E De Lazer', 'Serviços', 'EaD', 'Tecnólogo', 4763, 70, 21, 49, 348, 82),
-('Letras Modernas - Português/Inglês E Respectivas Literaturas', 'Educação', 'Presencial', 'Licenciatura', 1516, 21, 13, 8, 237, 1),
-('Engenharia De Produção Civil', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 5452, 64, 58, 6, 448, 8),
-('Química Ambiental', 'Ciências naturais, matemática e estatística', 'EaD', 'Bacharelado', 5761, 10, 4, 6, 793, 99),
-('Química Ambiental', 'Ciências naturais, matemática e estatística', 'EaD', 'Bacharelado', 9613, 15, 6, 9, 429, 60),
-('Artes', 'Educação', 'EaD', 'Licenciatura', 4758, 54, 9, 45, 393, 97),
-('Produção Agropecuária', 'Agricultura, silvicultura, pesca e veterinária', 'EaD', 'Tecnólogo', 2610, 15, 15, 0, 358, 72),
-('Intercultural Indígena Em Línguas, Artes E Literatura', 'Educação', 'EaD', 'Licenciatura', 6478, 44, 22, 22, 550, 45),
-('Teoria Da Dança', 'Artes e humanidades', 'Presencial', 'Bacharelado', 2318, 58, 36, 22, 657, 3),
-('Ciências Dos Alimentos', 'Engenharia, produção e construção', 'Presencial', 'Bacharelado', 1578, 33, 23, 10, 448, 39),
-('Manutenção De Aeronave De Asas Rotativas', 'Serviços', 'Presencial', 'Tecnólogo', 1721, 51, 14, 37, 909, 48),
-('Decoração', 'Artes e humanidades', 'Presencial', 'Bacharelado', 1543, 18, 16, 2, 657, 101),
-('Matemática Aplicada E Computacional', 'Ciências naturais, matemática e estatística', 'Presencial', 'Bacharelado', 2135, 42, 10, 32, 152, 52),
-('Intercultural Indígena Em Línguas, Artes E Literatura', 'Educação', 'Presencial', 'Licenciatura', 7350, 20, 11, 9, 633, 44),
-('Interdisciplinar Em Saúde', 'Saúde e bem-estar', 'EaD', 'Bacharelado', 4642, 41, 4, 37, 346, 51),
-('Artes Visuais - Gravura', 'Artes e humanidades', 'EaD', 'Bacharelado', 2632, 53, 28, 25, 842, 99),
-('Engenharia Hídrica', 'Engenharia, produção e construção', 'Presencial', 'Bacharelado', 2768, 67, 32, 35, 869, 99),
-('Ciências Biológicas: Biofísica', 'Ciências naturais, matemática e estatística', 'Presencial', 'Bacharelado', 2438, 10, 0, 10, 874, 66),
-('Moda', 'Artes e humanidades', 'EaD', 'Bacharelado', 2255, 35, 28, 7, 842, 58),
-('Música - Musicoterapia', 'Artes e humanidades', 'EaD', 'Bacharelado', 5585, 53, 11, 42, 482, 48),
-('Gestão Estratégica Empresarial', 'Negócios, administração e direito', 'EaD', 'Tecnólogo', 5524, 63, 7, 56, 711, 4),
-('Computação', 'Educação', 'EaD', 'Licenciatura', 7197, 13, 1, 12, 851, 20),
-('Ciências Biológicas: Biofísica', 'Ciências naturais, matemática e estatística', 'Presencial', 'Bacharelado', 7434, 70, 5, 65, 161, 18),
-('Ciências', 'Educação', 'Presencial', 'Licenciatura', 1487, 70, 51, 19, 468, 45),
-('Intercultural Indígena Em Línguas, Artes E Literatura', 'Educação', 'EaD', 'Licenciatura', 2989, 41, 16, 25, 633, 1),
-('Ciências Dos Alimentos', 'Engenharia, produção e construção', 'Presencial', 'Bacharelado', 2532, 14, 10, 4, 339, 56),
-('Química - Programa Segunda Licenciatura', 'Educação', 'Presencial', 'Licenciatura', 4059, 33, 7, 26, 462, 49),
-('Interdisciplinar Em Saúde', 'Saúde e bem-estar', 'Presencial', 'Bacharelado', 9652, 29, 1, 28, 871, 83),
-('Gestão Do Agronegócio', 'Negócios, administração e direito', 'EaD', 'Bacharelado', 5433, 35, 7, 28, 104, 89),
-('Ciências Humanas - Geografia', 'Educação', 'EaD', 'Licenciatura', 9894, 47, 5, 42, 492, 24),
-('Química - Habilitação Fundamental', 'Ciências naturais, matemática e estatística', 'EaD', 'Bacharelado', 9059, 30, 0, 30, 486, 88),
-('Ciência Ambiental', 'Ciências naturais, matemática e estatística', 'EaD', 'Bacharelado', 5793, 14, 2, 12, 494, 1),
-('Engenharia Cartográfica', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 7313, 35, 35, 0, 936, 14),
-('Computação', 'Educação', 'Presencial', 'Licenciatura', 8422, 55, 40, 15, 146, 95),
-('Saneamento Ambiental', 'Engenharia, produção e construção', 'EaD', 'Tecnólogo', 3959, 47, 43, 4, 618, 90),
-('Química - Habilitação Fundamental', 'Ciências naturais, matemática e estatística', 'EaD', 'Bacharelado', 4764, 54, 27, 27, 137, 50),
-('Segurança Privada', 'Serviços', 'EaD', 'Tecnólogo', 1300, 32, 28, 4, 279, 94),
-('Comércio Exterior E Negócios Internacionais', 'Negócios, administração e direito', 'EaD', 'Bacharelado', 8469, 63, 19, 44, 402, 58),
-('Manutenção De Aeronave De Asas Rotativas', 'Serviços', 'Presencial', 'Tecnólogo', 2586, 59, 48, 11, 231, 29),
-('Gestão Da Informação', 'Ciências sociais, comunicação e informação', 'EaD', 'Bacharelado', 5855, 65, 60, 5, 303, 28),
-('Comunicação Social - Audiovisual', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 3965, 31, 5, 26, 597, 25),
-('Engenharia De Materiais E Manufatura', 'Engenharia, produção e construção', 'Presencial', 'Bacharelado', 1301, 24, 10, 14, 489, 92),
-('Teoria Da Dança', 'Artes e humanidades', 'EaD', 'Bacharelado', 8975, 33, 11, 22, 239, 2),
-('Produção Agropecuária', 'Agricultura, silvicultura, pesca e veterinária', 'EaD', 'Tecnólogo', 8061, 69, 56, 13, 871, 50),
-('Comunicação Social - Audiovisual', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 5416, 11, 6, 5, 727, 72),
-('Interdisciplinar Em Saúde', 'Saúde e bem-estar', 'Presencial', 'Bacharelado', 8903, 37, 36, 1, 590, 41),
-('Programa Especial De Formação Pedagógica - Biologia', 'Educação', 'Presencial', 'Licenciatura', 4608, 67, 55, 12, 675, 66),
-('Decoração', 'Artes e humanidades', 'Presencial', 'Bacharelado', 9718, 61, 16, 45, 531, 61),
-('Engenharia De Materiais E Manufatura', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 8510, 41, 6, 35, 935, 44),
-('Moda', 'Artes e humanidades', 'Presencial', 'Bacharelado', 6261, 48, 43, 5, 991, 30),
-('Gestão Da Informação', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 2600, 58, 42, 16, 228, 51),
-('Manutenção De Aeronave De Asas Rotativas', 'Serviços', 'Presencial', 'Tecnólogo', 9199, 53, 30, 23, 280, 70),
-('Segurança Privada', 'Serviços', 'Presencial', 'Tecnólogo', 2076, 19, 4, 15, 330, 65),
-('Gestão Estratégica Empresarial', 'Negócios, administração e direito', 'EaD', 'Tecnólogo', 2849, 66, 37, 29, 581, 85),
-('Planejamento Territorial', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 9627, 58, 25, 33, 492, 90),
-('Gestão Da Informação', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 7650, 57, 29, 28, 907, 45),
-('Sistemas Biomédicos', 'Engenharia, produção e construção', 'EaD', 'Tecnólogo', 3831, 52, 7, 45, 942, 4),
-('Computação', 'Educação', 'EaD', 'Licenciatura', 8464, 25, 21, 4, 592, 50),
-('Qualidade De Vida Na Contemporaneidade', 'Saúde e bem-estar', 'EaD', 'Tecnólogo', 1132, 42, 5, 37, 395, 47),
-('Gestão Do Agronegócio', 'Negócios, administração e direito', 'EaD', 'Bacharelado', 8619, 21, 1, 20, 545, 77),
-('Engenharia De Agronegócios', 'Agricultura, silvicultura, pesca e veterinária', 'Presencial', 'Bacharelado', 3204, 66, 7, 59, 968, 63),
-('Matemática Aplicada E Computacional', 'Ciências naturais, matemática e estatística', 'Presencial', 'Bacharelado', 4931, 33, 17, 16, 964, 62),
-('Gestão Desportiva E De Lazer', 'Serviços', 'Presencial', 'Tecnólogo', 2900, 70, 70, 0, 175, 93),
-('Engenharia De Produção E Sistemas', 'Engenharia, produção e construção', 'Presencial', 'Bacharelado', 8892, 50, 49, 1, 785, 29),
-('Sociologia', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 1708, 31, 21, 10, 311, 25),
-('Gerontologia - Bem-Estar E Educação', 'Saúde e bem-estar', 'EaD', 'Tecnólogo', 5350, 17, 16, 1, 563, 102),
-('Artes Visuais - Gravura', 'Artes e humanidades', 'Presencial', 'Bacharelado', 3249, 33, 14, 19, 361, 43),
-('Interdisciplinar Em Saúde', 'Saúde e bem-estar', 'EaD', 'Bacharelado', 2661, 46, 7, 39, 710, 65),
-('Química - Programa Segunda Licenciatura', 'Educação', 'EaD', 'Licenciatura', 4115, 62, 38, 24, 256, 10),
-('Engenharia De Agrimensura E Cartográfica', 'Engenharia, produção e construção', 'Presencial', 'Bacharelado', 8156, 45, 42, 3, 571, 98),
-('Biocombustíveis', 'Engenharia, produção e construção', 'Presencial', 'Tecnólogo', 2977, 41, 32, 9, 542, 30),
-('Engenharia Agrícola', 'Agricultura, silvicultura, pesca e veterinária', 'Presencial', 'Bacharelado', 4944, 62, 62, 0, 649, 24),
-('Gestão De Investimentos', 'Negócios, administração e direito', 'Presencial', 'Tecnólogo', 8240, 26, 14, 12, 910, 88),
-('Produção Agropecuária', 'Agricultura, silvicultura, pesca e veterinária', 'EaD', 'Tecnólogo', 8726, 20, 16, 4, 609, 55),
-('Interdisciplinar Em Ciências E Humanidades', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 6346, 65, 54, 11, 548, 63),
-('Interdisciplinar Em Inovação, Ciência E Tecnologia', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 5653, 13, 2, 11, 376, 88),
-('Gastronomia', 'Serviços', 'Presencial', 'Tecnólogo', 9232, 64, 41, 23, 626, 48),
-('Línguas Estrangeiras Aplicadas Ao Multilinguismo E À Sociedade Da Informação', 'Artes e humanidades', 'Presencial', 'Bacharelado', 6110, 56, 43, 13, 638, 90),
-('Música - Órgão', 'Artes e humanidades', 'Presencial', 'Bacharelado', 7397, 35, 15, 20, 224, 99),
-('Produção Agropecuária', 'Agricultura, silvicultura, pesca e veterinária', 'Presencial', 'Tecnólogo', 1980, 39, 22, 17, 389, 8),
-('Saneamento Ambiental', 'Engenharia, produção e construção', 'EaD', 'Tecnólogo', 6187, 48, 36, 12, 716, 87),
-('Interdisciplinar Em Saúde', 'Saúde e bem-estar', 'Presencial', 'Bacharelado', 8397, 17, 1, 16, 657, 9),
-('Interdisciplinar Em Inovação, Ciência E Tecnologia', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 7572, 42, 28, 14, 645, 67),
-('Comunicação: Rádio, Televisão E Internet', 'Ciências sociais, comunicação e informação', 'EaD', 'Bacharelado', 2998, 67, 63, 4, 172, 42),
-('Design - Programação Visual', 'Artes e humanidades', 'EaD', 'Bacharelado', 3843, 27, 9, 18, 898, 94),
-('Arte E Mídia', 'Artes e humanidades', 'Presencial', 'Bacharelado', 5621, 37, 5, 32, 461, 86),
-('Interdisciplinar Em Ciências E Humanidades', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 2793, 43, 22, 21, 777, 22),
-('Planejamento Territorial', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 8076, 22, 17, 5, 870, 67),
-('Moda', 'Artes e humanidades', 'EaD', 'Bacharelado', 4167, 18, 4, 14, 662, 3),
-('Design - Programação Visual', 'Artes e humanidades', 'Presencial', 'Bacharelado', 9923, 44, 30, 14, 592, 73),
-('Letras Vernáculas', 'Artes e humanidades', 'EaD', 'Bacharelado', 4633, 31, 12, 19, 229, 65),
-('Gestão Da Informação', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 1856, 43, 30, 13, 671, 2),
-('Música - Musicoterapia', 'Artes e humanidades', 'EaD', 'Bacharelado', 8101, 64, 18, 46, 710, 26),
-('Gestão Pública', 'Negócios, administração e direito', 'Presencial', 'Tecnólogo', 7964, 62, 53, 9, 918, 83),
-('Biocombustíveis', 'Engenharia, produção e construção', 'EaD', 'Tecnólogo', 1484, 33, 25, 8, 132, 76),
-('Jogos Digitais', 'Computação e Tecnologias da Informação e Comunicação (TIC)', 'Presencial', 'Tecnólogo', 5826, 49, 26, 23, 236, 17),
-('Gestão Desportiva E De Lazer', 'Serviços', 'Presencial', 'Tecnólogo', 9040, 69, 4, 65, 861, 68),
-('Linguística', 'Artes e humanidades', 'Presencial', 'Bacharelado', 3061, 57, 37, 20, 295, 69),
-('Planejamento Territorial', 'Ciências sociais, comunicação e informação', 'EaD', 'Bacharelado', 4987, 39, 36, 3, 392, 67),
-('Moda', 'Artes e humanidades', 'Presencial', 'Bacharelado', 2416, 67, 52, 15, 659, 92),
-('Música - Musicoterapia', 'Artes e humanidades', 'EaD', 'Bacharelado', 7352, 18, 4, 14, 161, 66),
-('Línguas Estrangeiras Aplicadas Ao Multilinguismo E À Sociedade Da Informação', 'Artes e humanidades', 'Presencial', 'Bacharelado', 9570, 51, 13, 38, 519, 100),
-('Engenharia Cartográfica', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 9306, 26, 12, 14, 671, 58),
-('Artes', 'Educação', 'Presencial', 'Licenciatura', 5012, 61, 31, 30, 272, 67),
-('Segurança Privada', 'Serviços', 'Presencial', 'Tecnólogo', 3116, 15, 3, 12, 392, 72);
+('Medicina', 'Saúde e bem estar social', 'Presencial', 'Bacharelado', 0.0, 100, 90, 500, 1)
+('Ciência da Computação', 'Ciências, matemática e computação', 'EAD', 'Bacharelado', 0.0, 60, 50, 120, 2)
+('Matemática', 'Ciências, matemática e computação', 'Presencial', 'Licenciatura', 0.0, 30, 25, 50, 2)
+('Química - Programa Segunda Licenciatura', 'Educação', 'EaD', 'Licenciatura', 1075, 15, 5, 720, 68)
+('Engenharia Cartográfica', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 9512, 46, 25, 887, 26)
+('Gestão Desportiva E De Lazer', 'Serviços', 'EaD', 'Tecnólogo', 2541, 60, 56, 233, 8)
+('Letras Vernáculas', 'Artes e humanidades', 'EaD', 'Bacharelado', 9800, 22, 21, 755, 53)
+('Decoração', 'Artes e humanidades', 'Presencial', 'Bacharelado', 5456, 26, 18, 760, 17)
+('Segurança Privada', 'Serviços', 'Presencial', 'Tecnólogo', 9607, 47, 21, 458, 65)
+('Decoração', 'Artes e humanidades', 'EaD', 'Bacharelado', 8833, 15, 12, 469, 23)
+('Ciências Dos Alimentos', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 4906, 55, 48, 471, 84)
+('Gestão Ambiental E Sustentabilidade', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 6198, 51, 12, 745, 16)
+('Música - Musicoterapia', 'Artes e humanidades', 'EaD', 'Bacharelado', 2289, 58, 44, 841, 45)
+('Programa Especial De Formação Pedagógica - Biologia', 'Educação', 'EaD', 'Licenciatura', 5202, 18, 17, 103, 52)
+('Química - Programa Segunda Licenciatura', 'Educação', 'Presencial', 'Licenciatura', 5157, 11, 8, 413, 75)
+('Artes Visuais - Gravura', 'Artes e humanidades', 'Presencial', 'Bacharelado', 1811, 22, 10, 843, 95)
+('Letras Vernáculas -Português - Língua Estrangeira', 'Educação', 'EaD', 'Licenciatura', 6218, 39, 31, 619, 83)
+('Letras Modernas - Português/Inglês E Respectivas Literaturas', 'Educação', 'Presencial', 'Licenciatura', 7543, 48, 48, 524, 12)
+('Decoração', 'Artes e humanidades', 'Presencial', 'Bacharelado', 8983, 38, 1, 252, 93)
+('Gestão Estratégica Empresarial', 'Negócios, administração e direito', 'EaD', 'Tecnólogo', 9930, 18, 7, 303, 17)
+('Engenharia De Agrimensura E Cartográfica', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 9272, 20, 6, 584, 16)
+('Matemática Aplicada E Computacional', 'Ciências naturais, matemática e estatística', 'Presencial', 'Bacharelado', 2086, 64, 38, 762, 37)
+('Interdisciplinar Em Saúde', 'Saúde e bem-estar', 'Presencial', 'Bacharelado', 5050, 23, 23, 938, 69)
+('Programa Especial De Formação Pedagógica - Biologia', 'Educação', 'Presencial', 'Licenciatura', 3106, 48, 4, 247, 3)
+('Gestão De Investimentos', 'Negócios, administração e direito', 'EaD', 'Tecnólogo', 7452, 52, 34, 708, 39)
+('Moda', 'Artes e humanidades', 'EaD', 'Bacharelado', 9688, 43, 6, 855, 23)
+('Engenharia De Agrimensura E Cartográfica', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 7977, 31, 16, 490, 81)
+('Arte E Mídia', 'Artes e humanidades', 'Presencial', 'Bacharelado', 5945, 64, 41, 198, 68)
+('Química - Programa Segunda Licenciatura', 'Educação', 'Presencial', 'Licenciatura', 5351, 59, 26, 867, 36)
+('Gastronomia', 'Serviços', 'EaD', 'Tecnólogo', 5375, 29, 6, 822, 69)
+('Desenvolvimento Back-End', 'Computação e Tecnologias da Informação e Comunicação (TIC)', 'Presencial', 'Tecnólogo', 8778, 61, 8, 888, 18)
+('Ciências Biológicas - Ênfase Em Biologia Ambiental', 'Ciências naturais, matemática e estatística', 'Presencial', 'Bacharelado', 6723, 23, 11, 264, 17)
+('Marketing', 'Negócios, administração e direito', 'Presencial', 'Tecnólogo', 3819, 20, 15, 269, 10)
+('Sociologia', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 4640, 18, 5, 939, 46)
+('Gestão Pública', 'Negócios, administração e direito', 'EaD', 'Tecnólogo', 3562, 10, 0, 534, 7)
+('Intercultural Indígena Em Línguas, Artes E Literatura', 'Educação', 'EaD', 'Licenciatura', 9295, 56, 53, 777, 27)
+('Ciências', 'Educação', 'Presencial', 'Licenciatura', 8462, 41, 25, 503, 3)
+('Engenharia De Produção E Sistemas', 'Engenharia, produção e construção', 'Presencial', 'Bacharelado', 5644, 62, 35, 812, 45)
+('Design - Programação Visual', 'Artes e humanidades', 'Presencial', 'Bacharelado', 2328, 58, 48, 300, 70)
+('Engenharia Hídrica', 'Engenharia, produção e construção', 'Presencial', 'Bacharelado', 8893, 13, 13, 369, 55)
+('Matemática Aplicada E Computacional', 'Ciências naturais, matemática e estatística', 'Presencial', 'Bacharelado', 8023, 55, 34, 723, 85)
+('Ciências Da Natureza: Ciências E Biologia', 'Educação', 'EaD', 'Licenciatura', 1708, 21, 16, 531, 103)
+('Ciências Biológicas - Ênfase Em Biologia Ambiental', 'Ciências naturais, matemática e estatística', 'EaD', 'Bacharelado', 7500, 33, 33, 652, 31)
+('Química', 'Educação', 'Presencial', 'Licenciatura', 6415, 25, 9, 551, 75)
+('Química Ambiental', 'Ciências naturais, matemática e estatística', 'Presencial', 'Bacharelado', 6712, 38, 18, 548, 73)
+('Ciência Ambiental', 'Ciências naturais, matemática e estatística', 'Presencial', 'Bacharelado', 6788, 17, 11, 609, 6)
+('Desenvolvimento Back-End', 'Computação e Tecnologias da Informação e Comunicação (TIC)', 'Presencial', 'Tecnólogo', 3227, 63, 33, 373, 43)
+('Artes Visuais - Gravura', 'Artes e humanidades', 'EaD', 'Bacharelado', 2206, 10, 9, 806, 64)
+('Química - Habilitação Fundamental', 'Ciências naturais, matemática e estatística', 'Presencial', 'Bacharelado', 3989, 17, 7, 268, 84)
+('Comunicação: Rádio, Televisão E Internet', 'Ciências sociais, comunicação e informação', 'EaD', 'Bacharelado', 4665, 32, 12, 538, 68)
+('Engenharia De Produção Civil', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 7027, 22, 3, 257, 32)
+('Linguística', 'Artes e humanidades', 'Presencial', 'Bacharelado', 8793, 31, 12, 761, 89)
+('Empreendedorismo', 'Negócios, administração e direito', 'Presencial', 'Tecnólogo', 3445, 20, 12, 186, 53)
+('Química - Programa Segunda Licenciatura', 'Educação', 'EaD', 'Licenciatura', 9830, 69, 0, 932, 1)
+('Línguas Estrangeiras Aplicadas Ao Multilinguismo E À Sociedade Da Informação', 'Artes e humanidades', 'Presencial', 'Bacharelado', 5934, 25, 10, 263, 58)
+('Química', 'Educação', 'EaD', 'Licenciatura', 2644, 24, 9, 554, 66)
+('Comunicação: Rádio, Televisão E Internet', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 1927, 18, 1, 131, 47)
+('Ciências Da Natureza: Ciências E Biologia', 'Educação', 'EaD', 'Licenciatura', 2437, 60, 12, 576, 88)
+('Letras Vernáculas', 'Artes e humanidades', 'EaD', 'Bacharelado', 5180, 54, 12, 370, 7)
+('Moda', 'Artes e humanidades', 'Presencial', 'Bacharelado', 6555, 59, 23, 744, 83)
+('Sistemas Biomédicos', 'Engenharia, produção e construção', 'EaD', 'Tecnólogo', 7138, 60, 3, 131, 67)
+('Gestão Desportiva E De Lazer', 'Serviços', 'Presencial', 'Tecnólogo', 9918, 25, 12, 868, 77)
+('Gestão Do Agronegócio', 'Negócios, administração e direito', 'EaD', 'Bacharelado', 9604, 14, 0, 923, 26)
+('Gerontologia - Bem-Estar E Educação', 'Saúde e bem-estar', 'Presencial', 'Tecnólogo', 7414, 64, 1, 544, 28)
+('Segurança Privada', 'Serviços', 'Presencial', 'Tecnólogo', 4063, 57, 32, 869, 80)
+('Gestão De Cidades Inteligentes E Sustentáveis', 'Negócios, administração e direito', 'Presencial', 'Tecnólogo', 6453, 70, 44, 904, 12)
+('Tecnologias Educacionais', 'Computação e Tecnologias da Informação e Comunicação (TIC)', 'Presencial', 'Tecnólogo', 8137, 31, 25, 493, 75)
+('Gerontologia - Bem-Estar E Educação', 'Saúde e bem-estar', 'EaD', 'Tecnólogo', 7091, 31, 12, 625, 3)
+('Gestão De Cidades Inteligentes E Sustentáveis', 'Negócios, administração e direito', 'Presencial', 'Tecnólogo', 8279, 63, 23, 889, 4)
+('Gestão Pública', 'Negócios, administração e direito', 'Presencial', 'Tecnólogo', 6742, 29, 0, 185, 27)
+('Engenharia Agrícola', 'Agricultura, silvicultura, pesca e veterinária', 'EaD', 'Bacharelado', 7692, 16, 16, 270, 85)
+('Química - Habilitação Fundamental', 'Ciências naturais, matemática e estatística', 'EaD', 'Bacharelado', 3317, 47, 11, 970, 82)
+('Computação', 'Educação', 'Presencial', 'Licenciatura', 1435, 56, 49, 915, 25)
+('Ciências Da Natureza: Ciências E Biologia', 'Educação', 'Presencial', 'Licenciatura', 8309, 63, 10, 433, 42)
+('Design De Moda', 'Artes e humanidades', 'EaD', 'Bacharelado', 1579, 63, 19, 485, 44)
+('Comunicação Social - Audiovisual', 'Ciências sociais, comunicação e informação', 'EaD', 'Bacharelado', 5823, 49, 38, 110, 57)
+('Comércio Exterior E Negócios Internacionais', 'Negócios, administração e direito', 'Presencial', 'Bacharelado', 5800, 41, 7, 961, 68)
+('Moda', 'Artes e humanidades', 'EaD', 'Bacharelado', 2866, 42, 12, 752, 41)
+('Gestão Ambiental E Sustentabilidade', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 5422, 66, 25, 903, 75)
+('Interdisciplinar Em Ciências E Humanidades', 'Ciências sociais, comunicação e informação', 'EaD', 'Bacharelado', 6677, 33, 9, 802, 51)
+('Decoração', 'Artes e humanidades', 'EaD', 'Bacharelado', 2301, 13, 13, 610, 47)
+('Computação', 'Educação', 'Presencial', 'Licenciatura', 7611, 10, 2, 874, 51)
+('Interdisciplinar Em Saúde', 'Saúde e bem-estar', 'EaD', 'Bacharelado', 7933, 21, 11, 750, 57)
+('Animação', 'Artes e humanidades', 'EaD', 'Bacharelado', 4714, 48, 42, 428, 94)
+('Química', 'Educação', 'EaD', 'Licenciatura', 2898, 34, 21, 318, 50)
+('Ciências Da Natureza: Ciências E Biologia', 'Educação', 'Presencial', 'Licenciatura', 4021, 10, 10, 809, 90)
+('Ciências Biológicas: Biofísica', 'Ciências naturais, matemática e estatística', 'EaD', 'Bacharelado', 5688, 63, 23, 657, 74)
+('Design De Moda', 'Artes e humanidades', 'Presencial', 'Bacharelado', 9999, 67, 54, 485, 17)
+('Arquivologia', 'Ciências sociais, comunicação e informação', 'EaD', 'Bacharelado', 1171, 21, 5, 781, 32)
+('Engenharia Agrícola', 'Agricultura, silvicultura, pesca e veterinária', 'EaD', 'Bacharelado', 2033, 27, 8, 809, 100)
+('Gestão Pública', 'Negócios, administração e direito', 'EaD', 'Tecnólogo', 2760, 16, 5, 153, 42)
+('Interdisciplinar Em Ciências E Humanidades', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 3372, 70, 2, 126, 16)
+('Marketing', 'Negócios, administração e direito', 'Presencial', 'Tecnólogo', 5046, 67, 15, 694, 47)
+('Perícia Judicial E Extrajudicial', 'Serviços', 'Presencial', 'Tecnólogo', 3678, 46, 34, 926, 27)
+('Manutenção De Aeronave De Asas Rotativas', 'Serviços', 'EaD', 'Tecnólogo', 1602, 13, 8, 269, 69)
+('Biocombustíveis', 'Engenharia, produção e construção', 'Presencial', 'Tecnólogo', 6982, 34, 30, 465, 72)
+('Gestão De Investimentos', 'Negócios, administração e direito', 'EaD', 'Tecnólogo', 7831, 46, 0, 138, 56)
+('Saneamento Ambiental', 'Engenharia, produção e construção', 'Presencial', 'Tecnólogo', 5804, 69, 13, 701, 26)
+('Manutenção De Aeronave De Asas Rotativas', 'Serviços', 'EaD', 'Tecnólogo', 9530, 38, 16, 456, 103)
+('Engenharia Hídrica', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 1378, 60, 43, 887, 2)
+('Ciências Dos Alimentos', 'Engenharia, produção e construção', 'Presencial', 'Bacharelado', 5165, 43, 14, 947, 93)
+('Gestão Estratégica Empresarial', 'Negócios, administração e direito', 'Presencial', 'Tecnólogo', 7003, 15, 1, 119, 32)
+('Gerontologia - Bem-Estar E Educação', 'Saúde e bem-estar', 'EaD', 'Tecnólogo', 6899, 50, 39, 881, 77)
+('Manutenção De Aeronave De Asas Rotativas', 'Serviços', 'EaD', 'Tecnólogo', 1830, 68, 46, 669, 53)
+('Música - Musicoterapia', 'Artes e humanidades', 'EaD', 'Bacharelado', 2177, 43, 0, 783, 76)
+('Produção De Cacau E Chocolate', 'Agricultura, silvicultura, pesca e veterinária', 'Presencial', 'Tecnólogo', 4501, 31, 20, 276, 60)
+('Interdisciplinar Em Ciências E Humanidades', 'Ciências sociais, comunicação e informação', 'EaD', 'Bacharelado', 4237, 60, 8, 476, 76)
+('Interdisciplinar Em Inovação, Ciência E Tecnologia', 'Engenharia, produção e construção', 'Presencial', 'Bacharelado', 4724, 50, 20, 263, 95)
+('Letras: Tradução E Interpretação Em Libras/Português', 'Artes e humanidades', 'Presencial', 'Bacharelado', 3070, 19, 2, 215, 85)
+('Arquivologia', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 4574, 16, 7, 701, 22)
+('Engenharia De Produção E Sistemas', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 9357, 15, 5, 817, 42)
+('Biocombustíveis', 'Engenharia, produção e construção', 'EaD', 'Tecnólogo', 9558, 40, 10, 217, 16)
+('Jogos Digitais', 'Computação e Tecnologias da Informação e Comunicação (TIC)', 'EaD', 'Tecnólogo', 5861, 17, 11, 231, 36)
+('Intercultural Indígena Em Línguas, Artes E Literatura', 'Educação', 'Presencial', 'Licenciatura', 4993, 66, 8, 457, 67)
+('Intercultural Indígena Em Línguas, Artes E Literatura', 'Educação', 'EaD', 'Licenciatura', 5765, 28, 16, 546, 68)
+('Química Ambiental', 'Ciências naturais, matemática e estatística', 'Presencial', 'Bacharelado', 3502, 68, 17, 884, 100)
+('Design De Moda', 'Artes e humanidades', 'EaD', 'Bacharelado', 2985, 40, 10, 487, 87)
+('Interdisciplinar Em Ciências E Humanidades', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 5673, 26, 24, 107, 5)
+('Engenharia De Sistemas Ciber Físicos', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 1244, 64, 29, 292, 29)
+('Interdisciplinar Em Inovação, Ciência E Tecnologia', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 8076, 70, 49, 990, 99)
+('Design De Moda', 'Artes e humanidades', 'EaD', 'Bacharelado', 2229, 66, 54, 649, 92)
+('Marketing', 'Negócios, administração e direito', 'EaD', 'Tecnólogo', 5603, 31, 30, 188, 4)
+('Artes Visuais - Gravura', 'Artes e humanidades', 'EaD', 'Bacharelado', 2918, 41, 17, 271, 47)
+('Engenharia Cartográfica', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 7705, 23, 11, 143, 76)
+('Artes Visuais - Gravura', 'Artes e humanidades', 'Presencial', 'Bacharelado', 9745, 51, 34, 810, 89)
+('Engenharia De Produção Civil', 'Engenharia, produção e construção', 'Presencial', 'Bacharelado', 7773, 69, 3, 891, 34)
+('Letras Vernáculas -Português - Língua Estrangeira', 'Educação', 'EaD', 'Licenciatura', 5475, 55, 53, 679, 98)
+('Computação', 'Educação', 'EaD', 'Licenciatura', 3583, 60, 31, 754, 31)
+('Letras Modernas - Português/Inglês E Respectivas Literaturas', 'Educação', 'Presencial', 'Licenciatura', 6514, 45, 36, 271, 15)
+('Segurança Privada', 'Serviços', 'Presencial', 'Tecnólogo', 6036, 26, 25, 723, 5)
+('Engenharia Hídrica', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 1559, 19, 19, 106, 45)
+('Planejamento Territorial', 'Ciências sociais, comunicação e informação', 'EaD', 'Bacharelado', 7877, 57, 25, 797, 40)
+('Artes Visuais - Gravura', 'Artes e humanidades', 'Presencial', 'Bacharelado', 1087, 64, 50, 725, 23)
+('Ciências', 'Educação', 'Presencial', 'Licenciatura', 4822, 62, 33, 976, 80)
+('Saneamento Ambiental', 'Engenharia, produção e construção', 'Presencial', 'Tecnólogo', 8372, 30, 25, 115, 73)
+('Comunicação: Rádio, Televisão E Internet', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 6235, 34, 33, 976, 93)
+('Teoria Da Dança', 'Artes e humanidades', 'EaD', 'Bacharelado', 6437, 28, 17, 334, 43)
+('Ciências Biológicas - Ênfase Em Biologia Ambiental', 'Ciências naturais, matemática e estatística', 'Presencial', 'Bacharelado', 8292, 26, 24, 668, 1)
+('Desenvolvimento Back-End', 'Computação e Tecnologias da Informação e Comunicação (TIC)', 'Presencial', 'Tecnólogo', 4877, 43, 12, 592, 71)
+('Gastronomia', 'Serviços', 'Presencial', 'Tecnólogo', 1151, 12, 2, 900, 8)
+('Decoração', 'Artes e humanidades', 'EaD', 'Bacharelado', 1404, 62, 58, 392, 65)
+('Desenvolvimento Back-End', 'Computação e Tecnologias da Informação e Comunicação (TIC)', 'EaD', 'Tecnólogo', 5898, 26, 3, 192, 45)
+('Engenharia De Materiais E Nanotecnologia', 'Engenharia, produção e construção', 'Presencial', 'Bacharelado', 7559, 55, 20, 782, 74)
+('Ciência Ambiental', 'Ciências naturais, matemática e estatística', 'EaD', 'Bacharelado', 1029, 60, 36, 484, 41)
+('Interdisciplinar Em Ciências E Humanidades', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 1196, 35, 6, 424, 78)
+('Gestão De Turismo, Eventos E Lazer', 'Serviços', 'EaD', 'Tecnólogo', 5424, 41, 13, 971, 97)
+('Química Ambiental', 'Ciências naturais, matemática e estatística', 'Presencial', 'Bacharelado', 7992, 26, 1, 831, 47)
+('Decoração', 'Artes e humanidades', 'Presencial', 'Bacharelado', 7542, 67, 24, 412, 7)
+('Ciências Da Natureza: Ciências E Biologia', 'Educação', 'EaD', 'Licenciatura', 7840, 53, 19, 457, 84)
+('Linguística', 'Artes e humanidades', 'EaD', 'Bacharelado', 1281, 64, 21, 625, 61)
+('Letras: Tradução E Interpretação Em Libras/Português', 'Artes e humanidades', 'Presencial', 'Bacharelado', 3765, 44, 29, 292, 40)
+('Sociologia', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 8740, 54, 44, 169, 30)
+('Química - Habilitação Fundamental', 'Ciências naturais, matemática e estatística', 'EaD', 'Bacharelado', 7740, 65, 4, 550, 61)
+('Química - Programa Segunda Licenciatura', 'Educação', 'EaD', 'Licenciatura', 9189, 42, 30, 909, 27)
+('Química Ambiental', 'Ciências naturais, matemática e estatística', 'EaD', 'Bacharelado', 4746, 31, 4, 298, 102)
+('Ciências Da Natureza: Ciências E Biologia', 'Educação', 'EaD', 'Licenciatura', 3063, 63, 9, 161, 4)
+('Letras: Tradução E Interpretação Em Libras/Português', 'Artes e humanidades', 'EaD', 'Bacharelado', 3959, 12, 10, 432, 12)
+('Programa Especial De Formação Pedagógica - Biologia', 'Educação', 'Presencial', 'Licenciatura', 1718, 60, 11, 673, 44)
+('Engenharia De Agronegócios', 'Agricultura, silvicultura, pesca e veterinária', 'EaD', 'Bacharelado', 5943, 30, 5, 461, 99)
+('Música - Órgão', 'Artes e humanidades', 'Presencial', 'Bacharelado', 1952, 22, 7, 636, 74)
+('Produção De Cacau E Chocolate', 'Agricultura, silvicultura, pesca e veterinária', 'Presencial', 'Tecnólogo', 9338, 55, 46, 656, 38)
+('Química', 'Educação', 'Presencial', 'Licenciatura', 3001, 19, 11, 462, 45)
+('Gastronomia', 'Serviços', 'EaD', 'Tecnólogo', 4044, 66, 8, 875, 35)
+('Biocombustíveis', 'Engenharia, produção e construção', 'Presencial', 'Tecnólogo', 1991, 37, 35, 370, 82)
+('Gestão De Investimentos', 'Negócios, administração e direito', 'Presencial', 'Tecnólogo', 1055, 40, 22, 669, 58)
+('Ciências', 'Educação', 'Presencial', 'Licenciatura', 6649, 35, 28, 543, 29)
+('Intercultural Indígena Em Línguas, Artes E Literatura', 'Educação', 'Presencial', 'Licenciatura', 5430, 63, 32, 527, 9)
+('Química', 'Educação', 'EaD', 'Licenciatura', 4965, 57, 44, 947, 66)
+('Comunicação: Rádio, Televisão E Internet', 'Ciências sociais, comunicação e informação', 'EaD', 'Bacharelado', 7313, 62, 45, 175, 99)
+('Sociologia', 'Ciências sociais, comunicação e informação', 'EaD', 'Bacharelado', 1346, 36, 26, 196, 92)
+('Interdisciplinar Em Ciências E Humanidades', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 1226, 29, 5, 527, 80)
+('Interdisciplinar Em Inovação, Ciência E Tecnologia', 'Engenharia, produção e construção', 'Presencial', 'Bacharelado', 4089, 45, 3, 197, 32)
+('Artes Visuais - Gravura', 'Artes e humanidades', 'Presencial', 'Bacharelado', 1388, 29, 6, 789, 96)
+('Letras Vernáculas -Português - Língua Estrangeira', 'Educação', 'EaD', 'Licenciatura', 1809, 62, 19, 500, 79)
+('Produção Agropecuária', 'Agricultura, silvicultura, pesca e veterinária', 'EaD', 'Tecnólogo', 8318, 42, 17, 314, 102)
+('Interdisciplinar Em Inovação, Ciência E Tecnologia', 'Engenharia, produção e construção', 'Presencial', 'Bacharelado', 9630, 48, 11, 880, 77)
+('Gestão Estratégica Empresarial', 'Negócios, administração e direito', 'Presencial', 'Tecnólogo', 1578, 50, 50, 160, 86)
+('Design De Moda', 'Artes e humanidades', 'EaD', 'Bacharelado', 3403, 11, 1, 590, 63)
+('Matemática Aplicada E Computacional', 'Ciências naturais, matemática e estatística', 'Presencial', 'Bacharelado', 5902, 35, 2, 349, 94)
+('Desenvolvimento Back-End', 'Computação e Tecnologias da Informação e Comunicação (TIC)', 'Presencial', 'Tecnólogo', 4767, 26, 24, 862, 30)
+('Marketing', 'Negócios, administração e direito', 'Presencial', 'Tecnólogo', 7280, 68, 52, 809, 31)
+('Engenharia De Produção E Sistemas', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 8596, 68, 23, 439, 16)
+('Produção Agropecuária', 'Agricultura, silvicultura, pesca e veterinária', 'EaD', 'Tecnólogo', 5045, 68, 29, 611, 64)
+('Perícia Judicial E Extrajudicial', 'Serviços', 'EaD', 'Tecnólogo', 6201, 38, 4, 574, 99)
+('Ciências', 'Educação', 'Presencial', 'Licenciatura', 4161, 56, 19, 576, 14)
+('Intercultural Indígena Em Línguas, Artes E Literatura', 'Educação', 'Presencial', 'Licenciatura', 3202, 51, 10, 896, 91)
+('Gestão Da Informação', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 6615, 44, 17, 908, 48)
+('Segunda Licenciatura Em Pedagogia', 'Educação', 'Presencial', 'Licenciatura', 3333, 42, 31, 706, 79)
+('Jogos Digitais', 'Computação e Tecnologias da Informação e Comunicação (TIC)', 'EaD', 'Tecnólogo', 7409, 41, 18, 940, 59)
+('Design De Moda', 'Artes e humanidades', 'EaD', 'Bacharelado', 3794, 62, 12, 123, 59)
+('Química - Programa Segunda Licenciatura', 'Educação', 'Presencial', 'Licenciatura', 1618, 33, 8, 173, 85)
+('Gestão Desportiva E De Lazer', 'Serviços', 'EaD', 'Tecnólogo', 3994, 13, 4, 538, 102)
+('Marketing', 'Negócios, administração e direito', 'EaD', 'Tecnólogo', 8566, 38, 24, 959, 81)
+('Engenharia Cartográfica', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 1708, 66, 56, 171, 56)
+('Produção De Cacau E Chocolate', 'Agricultura, silvicultura, pesca e veterinária', 'EaD', 'Tecnólogo', 4116, 42, 29, 973, 12)
+('Ciências', 'Educação', 'Presencial', 'Licenciatura', 2385, 69, 44, 781, 102)
+('Letras Modernas - Português/Inglês E Respectivas Literaturas', 'Educação', 'Presencial', 'Licenciatura', 9299, 43, 14, 307, 16)
+('Ciências', 'Educação', 'Presencial', 'Licenciatura', 3659, 30, 20, 310, 82)
+('Manutenção De Aeronave De Asas Rotativas', 'Serviços', 'Presencial', 'Tecnólogo', 3855, 28, 8, 258, 73)
+('Produção De Cacau E Chocolate', 'Agricultura, silvicultura, pesca e veterinária', 'EaD', 'Tecnólogo', 5604, 33, 18, 684, 50)
+('Intercultural Indígena Em Línguas, Artes E Literatura', 'Educação', 'EaD', 'Licenciatura', 9775, 44, 36, 837, 31)
+('Linguística', 'Artes e humanidades', 'Presencial', 'Bacharelado', 6536, 69, 43, 164, 56)
+('Química - Programa Segunda Licenciatura', 'Educação', 'Presencial', 'Licenciatura', 2447, 31, 9, 896, 34)
+('Engenharia De Produção E Sistemas', 'Engenharia, produção e construção', 'Presencial', 'Bacharelado', 7531, 47, 28, 292, 17)
+('Letras Modernas - Português/Inglês E Respectivas Literaturas', 'Educação', 'Presencial', 'Licenciatura', 9601, 16, 3, 326, 60)
+('Música - Órgão', 'Artes e humanidades', 'EaD', 'Bacharelado', 9905, 36, 2, 384, 2)
+('Comércio Exterior E Negócios Internacionais', 'Negócios, administração e direito', 'EaD', 'Bacharelado', 8266, 42, 5, 780, 101)
+('Sociologia', 'Ciências sociais, comunicação e informação', 'EaD', 'Bacharelado', 9111, 20, 8, 473, 20)
+('Comércio Exterior E Negócios Internacionais', 'Negócios, administração e direito', 'EaD', 'Bacharelado', 6971, 25, 16, 417, 33)
+('Intercultural Indígena Em Línguas, Artes E Literatura', 'Educação', 'EaD', 'Licenciatura', 6457, 26, 3, 935, 84)
+('Comunicação Social - Audiovisual', 'Ciências sociais, comunicação e informação', 'EaD', 'Bacharelado', 9841, 35, 32, 182, 67)
+('Gestão Pública', 'Negócios, administração e direito', 'EaD', 'Tecnólogo', 6139, 15, 3, 531, 76)
+('Química Ambiental', 'Ciências naturais, matemática e estatística', 'EaD', 'Bacharelado', 3069, 34, 7, 483, 82)
+('Música - Musicoterapia', 'Artes e humanidades', 'EaD', 'Bacharelado', 5326, 69, 20, 923, 25)
+('Educação Do Campo: Ciências Sociais E Humanas', 'Educação', 'Presencial', 'Licenciatura', 4818, 36, 24, 690, 51)
+('Química Ambiental', 'Ciências naturais, matemática e estatística', 'EaD', 'Bacharelado', 9663, 41, 31, 815, 53)
+('Ciências Biológicas - Ênfase Em Biologia Ambiental', 'Ciências naturais, matemática e estatística', 'Presencial', 'Bacharelado', 5508, 47, 35, 641, 14)
+('Comércio Exterior E Negócios Internacionais', 'Negócios, administração e direito', 'Presencial', 'Bacharelado', 3771, 62, 57, 342, 13)
+('Design De Moda', 'Artes e humanidades', 'EaD', 'Bacharelado', 9307, 39, 32, 438, 57)
+('Linguística', 'Artes e humanidades', 'Presencial', 'Bacharelado', 7291, 52, 11, 909, 62)
+('Engenharia Cartográfica', 'Engenharia, produção e construção', 'Presencial', 'Bacharelado', 2305, 41, 12, 347, 29)
+('Ciência Ambiental', 'Ciências naturais, matemática e estatística', 'EaD', 'Bacharelado', 2149, 29, 8, 867, 8)
+('Educação Do Campo: Ciências Sociais E Humanas', 'Educação', 'Presencial', 'Licenciatura', 5898, 30, 16, 989, 87)
+('Letras: Tradução E Interpretação Em Libras/Português', 'Artes e humanidades', 'EaD', 'Bacharelado', 4670, 12, 9, 856, 55)
+('Línguas Estrangeiras Aplicadas Ao Multilinguismo E À Sociedade Da Informação', 'Artes e humanidades', 'EaD', 'Bacharelado', 2335, 19, 0, 901, 13)
+('Intercultural Indígena Em Línguas, Artes E Literatura', 'Educação', 'EaD', 'Licenciatura', 2482, 52, 44, 742, 102)
+('Empreendedorismo', 'Negócios, administração e direito', 'Presencial', 'Tecnólogo', 8633, 33, 14, 554, 22)
+('Gerontologia - Bem-Estar E Educação', 'Saúde e bem-estar', 'Presencial', 'Tecnólogo', 4513, 17, 0, 674, 100)
+('Engenharia De Produção Civil', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 7837, 18, 18, 465, 1)
+('Programa Especial De Formação Pedagógica - Biologia', 'Educação', 'Presencial', 'Licenciatura', 7675, 15, 4, 669, 61)
+('Engenharia De Produção E Sistemas', 'Engenharia, produção e construção', 'Presencial', 'Bacharelado', 8357, 19, 9, 580, 24)
+('Gestão Desportiva E De Lazer', 'Serviços', 'Presencial', 'Tecnólogo', 6861, 27, 21, 468, 5)
+('Animação', 'Artes e humanidades', 'Presencial', 'Bacharelado', 1384, 18, 9, 788, 53)
+('Qualidade De Vida Na Contemporaneidade', 'Saúde e bem-estar', 'Presencial', 'Tecnólogo', 8834, 32, 28, 702, 70)
+('Gerontologia - Bem-Estar E Educação', 'Saúde e bem-estar', 'EaD', 'Tecnólogo', 8326, 63, 1, 121, 21)
+('Jornalismo', 'Ciências sociais, comunicação e informação', 'EaD', 'Bacharelado', 9223, 55, 49, 765, 69)
+('Engenharia De Sistemas Ciber Físicos', 'Engenharia, produção e construção', 'Presencial', 'Bacharelado', 9656, 34, 3, 835, 81)
+('Artes Visuais - Gravura', 'Artes e humanidades', 'Presencial', 'Bacharelado', 7577, 51, 0, 273, 10)
+('Planejamento Territorial', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 7264, 22, 17, 146, 9)
+('Saneamento Ambiental', 'Engenharia, produção e construção', 'EaD', 'Tecnólogo', 2893, 47, 44, 539, 80)
+('Saneamento Ambiental', 'Engenharia, produção e construção', 'Presencial', 'Tecnólogo', 1173, 44, 4, 275, 90)
+('Ciências Biológicas - Ênfase Em Biologia Ambiental', 'Ciências naturais, matemática e estatística', 'EaD', 'Bacharelado', 4699, 13, 8, 951, 93)
+('Interdisciplinar Em Saúde', 'Saúde e bem-estar', 'Presencial', 'Bacharelado', 7060, 48, 4, 390, 1)
+('Letras Vernáculas -Português - Língua Estrangeira', 'Educação', 'EaD', 'Licenciatura', 6074, 34, 19, 245, 71)
+('Intercultural Indígena Em Línguas, Artes E Literatura', 'Educação', 'EaD', 'Licenciatura', 1385, 33, 13, 417, 6)
+('Teoria Da Dança', 'Artes e humanidades', 'EaD', 'Bacharelado', 1638, 40, 6, 553, 94)
+('Tecnologias Educacionais', 'Computação e Tecnologias da Informação e Comunicação (TIC)', 'Presencial', 'Tecnólogo', 7711, 31, 25, 499, 12)
+('Gestão De Turismo, Eventos E Lazer', 'Serviços', 'Presencial', 'Tecnólogo', 3721, 65, 51, 492, 99)
+('Gestão Desportiva E De Lazer', 'Serviços', 'EaD', 'Tecnólogo', 4763, 70, 21, 348, 82)
+('Letras Modernas - Português/Inglês E Respectivas Literaturas', 'Educação', 'Presencial', 'Licenciatura', 1516, 21, 13, 237, 1)
+('Engenharia De Produção Civil', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 5452, 64, 58, 448, 8)
+('Química Ambiental', 'Ciências naturais, matemática e estatística', 'EaD', 'Bacharelado', 5761, 10, 4, 793, 99)
+('Química Ambiental', 'Ciências naturais, matemática e estatística', 'EaD', 'Bacharelado', 9613, 15, 6, 429, 60)
+('Artes', 'Educação', 'EaD', 'Licenciatura', 4758, 54, 9, 393, 97)
+('Produção Agropecuária', 'Agricultura, silvicultura, pesca e veterinária', 'EaD', 'Tecnólogo', 2610, 15, 15, 358, 72)
+('Intercultural Indígena Em Línguas, Artes E Literatura', 'Educação', 'EaD', 'Licenciatura', 6478, 44, 22, 550, 45)
+('Teoria Da Dança', 'Artes e humanidades', 'Presencial', 'Bacharelado', 2318, 58, 36, 657, 3)
+('Ciências Dos Alimentos', 'Engenharia, produção e construção', 'Presencial', 'Bacharelado', 1578, 33, 23, 448, 39)
+('Manutenção De Aeronave De Asas Rotativas', 'Serviços', 'Presencial', 'Tecnólogo', 1721, 51, 14, 909, 48)
+('Decoração', 'Artes e humanidades', 'Presencial', 'Bacharelado', 1543, 18, 16, 657, 101)
+('Matemática Aplicada E Computacional', 'Ciências naturais, matemática e estatística', 'Presencial', 'Bacharelado', 2135, 42, 10, 152, 52)
+('Intercultural Indígena Em Línguas, Artes E Literatura', 'Educação', 'Presencial', 'Licenciatura', 7350, 20, 11, 633, 44)
+('Interdisciplinar Em Saúde', 'Saúde e bem-estar', 'EaD', 'Bacharelado', 4642, 41, 4, 346, 51)
+('Artes Visuais - Gravura', 'Artes e humanidades', 'EaD', 'Bacharelado', 2632, 53, 28, 842, 99)
+('Engenharia Hídrica', 'Engenharia, produção e construção', 'Presencial', 'Bacharelado', 2768, 67, 32, 869, 99)
+('Ciências Biológicas: Biofísica', 'Ciências naturais, matemática e estatística', 'Presencial', 'Bacharelado', 2438, 10, 0, 874, 66)
+('Moda', 'Artes e humanidades', 'EaD', 'Bacharelado', 2255, 35, 28, 842, 58)
+('Música - Musicoterapia', 'Artes e humanidades', 'EaD', 'Bacharelado', 5585, 53, 11, 482, 48)
+('Gestão Estratégica Empresarial', 'Negócios, administração e direito', 'EaD', 'Tecnólogo', 5524, 63, 7, 711, 4)
+('Computação', 'Educação', 'EaD', 'Licenciatura', 7197, 13, 1, 851, 20)
+('Ciências Biológicas: Biofísica', 'Ciências naturais, matemática e estatística', 'Presencial', 'Bacharelado', 7434, 70, 5, 161, 18)
+('Ciências', 'Educação', 'Presencial', 'Licenciatura', 1487, 70, 51, 468, 45)
+('Intercultural Indígena Em Línguas, Artes E Literatura', 'Educação', 'EaD', 'Licenciatura', 2989, 41, 16, 633, 1)
+('Ciências Dos Alimentos', 'Engenharia, produção e construção', 'Presencial', 'Bacharelado', 2532, 14, 10, 339, 56)
+('Química - Programa Segunda Licenciatura', 'Educação', 'Presencial', 'Licenciatura', 4059, 33, 7, 462, 49)
+('Interdisciplinar Em Saúde', 'Saúde e bem-estar', 'Presencial', 'Bacharelado', 9652, 29, 1, 871, 83)
+('Gestão Do Agronegócio', 'Negócios, administração e direito', 'EaD', 'Bacharelado', 5433, 35, 7, 104, 89)
+('Ciências Humanas - Geografia', 'Educação', 'EaD', 'Licenciatura', 9894, 47, 5, 492, 24)
+('Química - Habilitação Fundamental', 'Ciências naturais, matemática e estatística', 'EaD', 'Bacharelado', 9059, 30, 0, 486, 88)
+('Ciência Ambiental', 'Ciências naturais, matemática e estatística', 'EaD', 'Bacharelado', 5793, 14, 2, 494, 1)
+('Engenharia Cartográfica', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 7313, 35, 35, 936, 14)
+('Computação', 'Educação', 'Presencial', 'Licenciatura', 8422, 55, 40, 146, 95)
+('Saneamento Ambiental', 'Engenharia, produção e construção', 'EaD', 'Tecnólogo', 3959, 47, 43, 618, 90)
+('Química - Habilitação Fundamental', 'Ciências naturais, matemática e estatística', 'EaD', 'Bacharelado', 4764, 54, 27, 137, 50)
+('Segurança Privada', 'Serviços', 'EaD', 'Tecnólogo', 1300, 32, 28, 279, 94)
+('Comércio Exterior E Negócios Internacionais', 'Negócios, administração e direito', 'EaD', 'Bacharelado', 8469, 63, 19, 402, 58)
+('Manutenção De Aeronave De Asas Rotativas', 'Serviços', 'Presencial', 'Tecnólogo', 2586, 59, 48, 231, 29)
+('Gestão Da Informação', 'Ciências sociais, comunicação e informação', 'EaD', 'Bacharelado', 5855, 65, 60, 303, 28)
+('Comunicação Social - Audiovisual', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 3965, 31, 5, 597, 25)
+('Engenharia De Materiais E Manufatura', 'Engenharia, produção e construção', 'Presencial', 'Bacharelado', 1301, 24, 10, 489, 92)
+('Teoria Da Dança', 'Artes e humanidades', 'EaD', 'Bacharelado', 8975, 33, 11, 239, 2)
+('Produção Agropecuária', 'Agricultura, silvicultura, pesca e veterinária', 'EaD', 'Tecnólogo', 8061, 69, 56, 871, 50)
+('Comunicação Social - Audiovisual', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 5416, 11, 6, 727, 72)
+('Interdisciplinar Em Saúde', 'Saúde e bem-estar', 'Presencial', 'Bacharelado', 8903, 37, 36, 590, 41)
+('Programa Especial De Formação Pedagógica - Biologia', 'Educação', 'Presencial', 'Licenciatura', 4608, 67, 55, 675, 66)
+('Decoração', 'Artes e humanidades', 'Presencial', 'Bacharelado', 9718, 61, 16, 531, 61)
+('Engenharia De Materiais E Manufatura', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 8510, 41, 6, 935, 44)
+('Moda', 'Artes e humanidades', 'Presencial', 'Bacharelado', 6261, 48, 43, 991, 30)
+('Gestão Da Informação', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 2600, 58, 42, 228, 51)
+('Manutenção De Aeronave De Asas Rotativas', 'Serviços', 'Presencial', 'Tecnólogo', 9199, 53, 30, 280, 70)
+('Segurança Privada', 'Serviços', 'Presencial', 'Tecnólogo', 2076, 19, 4, 330, 65)
+('Gestão Estratégica Empresarial', 'Negócios, administração e direito', 'EaD', 'Tecnólogo', 2849, 66, 37, 581, 85)
+('Planejamento Territorial', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 9627, 58, 25, 492, 90)
+('Gestão Da Informação', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 7650, 57, 29, 907, 45)
+('Sistemas Biomédicos', 'Engenharia, produção e construção', 'EaD', 'Tecnólogo', 3831, 52, 7, 942, 4)
+('Computação', 'Educação', 'EaD', 'Licenciatura', 8464, 25, 21, 592, 50)
+('Qualidade De Vida Na Contemporaneidade', 'Saúde e bem-estar', 'EaD', 'Tecnólogo', 1132, 42, 5, 395, 47)
+('Gestão Do Agronegócio', 'Negócios, administração e direito', 'EaD', 'Bacharelado', 8619, 21, 1, 545, 77)
+('Engenharia De Agronegócios', 'Agricultura, silvicultura, pesca e veterinária', 'Presencial', 'Bacharelado', 3204, 66, 7, 968, 63)
+('Matemática Aplicada E Computacional', 'Ciências naturais, matemática e estatística', 'Presencial', 'Bacharelado', 4931, 33, 17, 964, 62)
+('Gestão Desportiva E De Lazer', 'Serviços', 'Presencial', 'Tecnólogo', 2900, 70, 70, 175, 93)
+('Engenharia De Produção E Sistemas', 'Engenharia, produção e construção', 'Presencial', 'Bacharelado', 8892, 50, 49, 785, 29)
+('Sociologia', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 1708, 31, 21, 311, 25)
+('Gerontologia - Bem-Estar E Educação', 'Saúde e bem-estar', 'EaD', 'Tecnólogo', 5350, 17, 16, 563, 102)
+('Artes Visuais - Gravura', 'Artes e humanidades', 'Presencial', 'Bacharelado', 3249, 33, 14, 361, 43)
+('Interdisciplinar Em Saúde', 'Saúde e bem-estar', 'EaD', 'Bacharelado', 2661, 46, 7, 710, 65)
+('Química - Programa Segunda Licenciatura', 'Educação', 'EaD', 'Licenciatura', 4115, 62, 38, 256, 10)
+('Engenharia De Agrimensura E Cartográfica', 'Engenharia, produção e construção', 'Presencial', 'Bacharelado', 8156, 45, 42, 571, 98)
+('Biocombustíveis', 'Engenharia, produção e construção', 'Presencial', 'Tecnólogo', 2977, 41, 32, 542, 30)
+('Engenharia Agrícola', 'Agricultura, silvicultura, pesca e veterinária', 'Presencial', 'Bacharelado', 4944, 62, 62, 649, 24)
+('Gestão De Investimentos', 'Negócios, administração e direito', 'Presencial', 'Tecnólogo', 8240, 26, 14, 910, 88)
+('Produção Agropecuária', 'Agricultura, silvicultura, pesca e veterinária', 'EaD', 'Tecnólogo', 8726, 20, 16, 609, 55)
+('Interdisciplinar Em Ciências E Humanidades', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 6346, 65, 54, 548, 63)
+('Interdisciplinar Em Inovação, Ciência E Tecnologia', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 5653, 13, 2, 376, 88)
+('Gastronomia', 'Serviços', 'Presencial', 'Tecnólogo', 9232, 64, 41, 626, 48)
+('Línguas Estrangeiras Aplicadas Ao Multilinguismo E À Sociedade Da Informação', 'Artes e humanidades', 'Presencial', 'Bacharelado', 6110, 56, 43, 638, 90)
+('Música - Órgão', 'Artes e humanidades', 'Presencial', 'Bacharelado', 7397, 35, 15, 224, 99)
+('Produção Agropecuária', 'Agricultura, silvicultura, pesca e veterinária', 'Presencial', 'Tecnólogo', 1980, 39, 22, 389, 8)
+('Saneamento Ambiental', 'Engenharia, produção e construção', 'EaD', 'Tecnólogo', 6187, 48, 36, 716, 87)
+('Interdisciplinar Em Saúde', 'Saúde e bem-estar', 'Presencial', 'Bacharelado', 8397, 17, 1, 657, 9)
+('Interdisciplinar Em Inovação, Ciência E Tecnologia', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 7572, 42, 28, 645, 67)
+('Comunicação: Rádio, Televisão E Internet', 'Ciências sociais, comunicação e informação', 'EaD', 'Bacharelado', 2998, 67, 63, 172, 42)
+('Design - Programação Visual', 'Artes e humanidades', 'EaD', 'Bacharelado', 3843, 27, 9, 898, 94)
+('Arte E Mídia', 'Artes e humanidades', 'Presencial', 'Bacharelado', 5621, 37, 5, 461, 86)
+('Interdisciplinar Em Ciências E Humanidades', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 2793, 43, 22, 777, 22)
+('Planejamento Territorial', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 8076, 22, 17, 870, 67)
+('Moda', 'Artes e humanidades', 'EaD', 'Bacharelado', 4167, 18, 4, 662, 3)
+('Design - Programação Visual', 'Artes e humanidades', 'Presencial', 'Bacharelado', 9923, 44, 30, 592, 73)
+('Letras Vernáculas', 'Artes e humanidades', 'EaD', 'Bacharelado', 4633, 31, 12, 229, 65)
+('Gestão Da Informação', 'Ciências sociais, comunicação e informação', 'Presencial', 'Bacharelado', 1856, 43, 30, 671, 2)
+('Música - Musicoterapia', 'Artes e humanidades', 'EaD', 'Bacharelado', 8101, 64, 18, 710, 26)
+('Gestão Pública', 'Negócios, administração e direito', 'Presencial', 'Tecnólogo', 7964, 62, 53, 918, 83)
+('Biocombustíveis', 'Engenharia, produção e construção', 'EaD', 'Tecnólogo', 1484, 33, 25, 132, 76)
+('Jogos Digitais', 'Computação e Tecnologias da Informação e Comunicação (TIC)', 'Presencial', 'Tecnólogo', 5826, 49, 26, 236, 17)
+('Gestão Desportiva E De Lazer', 'Serviços', 'Presencial', 'Tecnólogo', 9040, 69, 4, 861, 68)
+('Linguística', 'Artes e humanidades', 'Presencial', 'Bacharelado', 3061, 57, 37, 295, 69)
+('Planejamento Territorial', 'Ciências sociais, comunicação e informação', 'EaD', 'Bacharelado', 4987, 39, 36, 392, 67)
+('Moda', 'Artes e humanidades', 'Presencial', 'Bacharelado', 2416, 67, 52, 659, 92)
+('Música - Musicoterapia', 'Artes e humanidades', 'EaD', 'Bacharelado', 7352, 18, 4, 161, 66)
+('Línguas Estrangeiras Aplicadas Ao Multilinguismo E À Sociedade Da Informação', 'Artes e humanidades', 'Presencial', 'Bacharelado', 9570, 51, 13, 519, 100)
+('Engenharia Cartográfica', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 9306, 26, 12, 671, 58)
+('Artes', 'Educação', 'Presencial', 'Licenciatura', 5012, 61, 31, 272, 67)
+('Segurança Privada', 'Serviços', 'Presencial', 'Tecnólogo', 3116, 15, 3, 392, 72);
