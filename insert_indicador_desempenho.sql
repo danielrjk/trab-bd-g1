@@ -16,7 +16,7 @@ SELECT
     ROUND(
         (COUNT(CASE WHEN matriculas.bolsista = TRUE THEN 1 ELSE NULL END) * 100.0 / NULLIF(COUNT(matriculas.id), 0)), 2
     ) AS percentual_bolsistas,
-    cursos.id AS fk_cursos_id
+    cursos.id AS cursos_id
 FROM 
     anos
 CROSS JOIN cursos
