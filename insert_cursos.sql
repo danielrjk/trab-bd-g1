@@ -1,4 +1,7 @@
 INSERT INTO cursos (nome, area, modalidade, grau_academico, mensalidade, vagas_ofertadas, vagas_preenchidas, vagas_restantes, candidatos, ies_id) VALUES 
+('Medicina', 'Saúde e bem estar social', 'Presencial', 'Bacharelado', 0.00, 100, 90, 10, 500, 1),
+('Ciência da Computação', 'Ciências, matemática e computação', 'EAD', 'Bacharelado', 0.00, 60, 50, 10, 120, 2),
+('Matemática', 'Ciências, matemática e computação', 'Presencial', 'Licenciatura', 0.00, 30, 25, 5, 50, 2),
 ('Química - Programa Segunda Licenciatura', 'Educação', 'EaD', 'Licenciatura', 1075, 15, 5, 10, 720, 68),
 ('Engenharia Cartográfica', 'Engenharia, produção e construção', 'EaD', 'Bacharelado', 9512, 46, 25, 21, 887, 26),
 ('Gestão Desportiva E De Lazer', 'Serviços', 'EaD', 'Tecnólogo', 2541, 60, 56, 4, 233, 8),
