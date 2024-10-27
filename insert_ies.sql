@@ -1,7 +1,7 @@
 INSERT INTO ies (nome, uf, municipio) VALUES 
 ('Universidade Federal do Rio de Janeiro', 'RJ', 'Rio de Janeiro'),
 ('Universidade de São Paulo', 'SP', 'São Paulo'),
-('Universidade Federal de Minas Gerais', 'MG', 'Belo Horizonte')
+('Universidade Federal de Minas Gerais', 'MG', 'Belo Horizonte'),
 ('FACULDADE DE PALMAS', 'TO', 'Palmas'),
 ('FACULDADES INTEGRADAS DE PARANAÍBA - FIPAR', 'MS', 'Paranaíba'),
 ('FACULDADE DO CEFI', 'RS', 'Porto Alegre'),
