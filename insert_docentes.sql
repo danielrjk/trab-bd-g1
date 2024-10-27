@@ -1,4 +1,4 @@
-INSERT INTO docentes (genero, raca_cor, idade, nacionalidade, formacao, regime_trabalho)
+INSERT INTO docentes (genero, raca_cor, idade, nacionalidade, formacao, regime_trabalho) VALUES
 ('Homem cisgênero', 'Branca', 30, 'Chilena', 'Pós-doutorado', 'Dedicação Exclusiva'),
 ('Gênero fluido', 'Parda', 26, 'Sul-africana', 'Mestrado', 'Tempo Parcial'),
 ('Não-binário', 'Amarela', 34, 'Estadunidense', 'Doutorado', 'Tempo Integral'),
