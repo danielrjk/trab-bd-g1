@@ -1,4 +1,7 @@
 INSERT INTO infraestrutura (tipo, quantidade, ies_id) VALUES 
+('Laboratórios de Informática', 20, 1),
+('Auditórios', 5, 2),
+('Salas de Aula', 50, 3),
 ('Pista de atletismo', 1, 3),
 ('Laboratório de física', 13, 49),
 ('Laboratório de design gráfico', 7, 73),
