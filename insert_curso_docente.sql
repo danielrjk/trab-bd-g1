@@ -1,4 +1,7 @@
 INSERT INTO curso_docente (cursos_id, docentes_id) VALUES 
+(1, 1),
+(2, 2),
+(3, 3),
 (5, 24),
 (344, 607),
 (343, 187),
