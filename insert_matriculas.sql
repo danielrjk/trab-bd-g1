@@ -1,4 +1,7 @@
 INSERT INTO matriculas (ano_ingresso, ano_conclusao, status, bolsista, tipo_bolsa, percentual_bolsa, cursos_id, discentes_id) VALUES 
+(2021, 2027, 'Ativo', TRUE, 'Prouni', 100.00, 2, 1),
+(2020, 2025, 'Ativo', FALSE, NULL, 0.00, 2, 2),
+(2019, 2023, 'Formado', TRUE, 'FIES', 50.00, 3, 3),
 (2017, 2020, 'Evasão', FALSE, NULL, NULL, 289, 300),
 (2024, 2024, 'Evasão', FALSE, NULL, NULL, 325, 672),
 (2020, 2024, 'Ativo', TRUE, 'Prouni', 80, 200, 492),
